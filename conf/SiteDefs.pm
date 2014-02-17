@@ -109,7 +109,10 @@ sub update_conf {
 # --- Release 21
     $SiteDefs::__species_aliases{'Dendroctonus_ponderosae'} = [qw(Dendroctonus_ponderosae)];
     $SiteDefs::__species_aliases{'Solenopsis_invicta'} = [qw(Solenopsis_invicta)];
+
+# --- Release 22
     $SiteDefs::__species_aliases{'Onchocerca_volvulus'} = [qw(Onchocerca_volvulus)];
+
 
     @SiteDefs::ENSEMBL_PERL_DIRS    = (
                                            $SiteDefs::ENSEMBL_SERVERROOT.'/perl',
