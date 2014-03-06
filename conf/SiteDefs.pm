@@ -115,9 +115,9 @@ sub update_conf {
 
 
     @SiteDefs::ENSEMBL_PERL_DIRS    = (
-                                           $SiteDefs::ENSEMBL_SERVERROOT.'/perl',
-                                           $SiteDefs::ENSEMBL_SERVERROOT.'/eg-plugins/common/perl',
-                                           $SiteDefs::ENSEMBL_SERVERROOT.'/eg-plugins/metazoa/perl',
+                                           $SiteDefs::ENSEMBL_WEBROOT.'/perl',
+                                           $SiteDefs::ENSEMBL_SERVERROOT.'/eg-web-common/perl',
+                                           $SiteDefs::ENSEMBL_SERVERROOT.'/eg-web-metazoa/perl',
 				       );
 
     $SiteDefs::SITE_NAME = 'Ensembl Metazoa';
@@ -125,7 +125,7 @@ sub update_conf {
     $SiteDefs::SITE_FTP= 'ftp://ftp.ensemblgenomes.org/pub/metazoa';
     push @SiteDefs::ENSEMBL_HTDOCS_DIRS,  $SiteDefs::ENSEMBL_SERVERROOT.'/../biomarts/metazoa/biomart-perl/htdocs';
     
-    $SiteDefs::DOCSEARCH_INDEX_DIR = $SiteDefs::ENSEMBL_SERVERROOT.'/eg-plugins/metazoa/data/docsearch';
+    $SiteDefs::DOCSEARCH_INDEX_DIR = $SiteDefs::ENSEMBL_SERVERROOT.'/eg-web-metazoa/data/docsearch';
 
     $SiteDefs::ENA_COLLECTION_ID = 223;
 
