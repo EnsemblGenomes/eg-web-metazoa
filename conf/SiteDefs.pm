@@ -113,6 +113,8 @@ sub update_conf {
 # --- Release 22
     $SiteDefs::__species_aliases{'Onchocerca_volvulus'} = [qw(Onchocerca_volvulus)];
 
+# --- Release 23
+    $SiteDefs::__species_aliases{'Mnemiopsis_leidyi'} = [qw(Mnemiopsis_leidyi)];
 
     @SiteDefs::ENSEMBL_PERL_DIRS    = (
                                            $SiteDefs::ENSEMBL_WEBROOT.'/perl',
