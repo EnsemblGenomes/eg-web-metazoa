@@ -115,6 +115,7 @@ sub update_conf {
 
 # --- Release 23
     $SiteDefs::__species_aliases{'Mnemiopsis_leidyi'} = [qw(Mnemiopsis_leidyi)];
+    $SiteDefs::__species_aliases{'Melitaea_cinxia'} = [qw(Melitaea_cinxia)];
 
     @SiteDefs::ENSEMBL_PERL_DIRS    = (
                                            $SiteDefs::ENSEMBL_WEBROOT.'/perl',
