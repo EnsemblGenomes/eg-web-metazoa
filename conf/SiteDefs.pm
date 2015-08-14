@@ -124,6 +124,7 @@ sub update_conf {
                                            $SiteDefs::ENSEMBL_SERVERROOT.'/eg-web-metazoa/perl',
 				       );
 
+    $SiteDefs::EG_DIVISION = 'metazoa';
     $SiteDefs::SITE_NAME = 'Ensembl Metazoa';
     $SiteDefs::ENSEMBL_SITETYPE = 'Ensembl Metazoa';
     $SiteDefs::SITE_FTP= 'ftp://ftp.ensemblgenomes.org/pub/metazoa';
