@@ -118,6 +118,20 @@ sub update_conf {
     $SiteDefs::__species_aliases{'Melitaea_cinxia'} = [qw(Melitaea_cinxia)];
     $SiteDefs::__species_aliases{'Zootermopsis_nevadensis'} = [qw(Zootermopsis_nevadensis)];
 
+# --- Release 31
+    $SiteDefs::__species_aliases{'Belgica_antarctica'} = [qw(Belgica_antarctica)];
+    $SiteDefs::__species_aliases{'Bombus_impatiens'} = [qw(Bombus_impatiens)];
+    $SiteDefs::__species_aliases{'Lepeophtheirus_salmonis'} = [qw(Lepeophtheirus_salmonis)];
+    $SiteDefs::__species_aliases{'Lingula_anatina'} = [qw(Lingula_anatina)];
+    $SiteDefs::__species_aliases{'Lucilia_cuprina'} = [qw(Lucilia_cuprina)];
+    $SiteDefs::__species_aliases{'Octopus_bimaculoides'} = [qw(Octopus_bimaculoides)];
+    $SiteDefs::__species_aliases{'Sarcoptes_scabiei'} = [qw(Sarcoptes_scabiei)];
+    $SiteDefs::__species_aliases{'Stegodyphus_mimosarum'} = [qw(Stegodyphus_mimosarum)];
+    $SiteDefs::__species_aliases{'Strongyloides_ratti'} = [qw(Strongyloides_ratti)];
+    $SiteDefs::__species_aliases{'Thelohanellus_kitauei'} = [qw(Thelohanellus_kitauei)];
+
+
+
     @SiteDefs::ENSEMBL_PERL_DIRS    = (
                                            $SiteDefs::ENSEMBL_WEBROOT.'/perl',
                                            $SiteDefs::ENSEMBL_SERVERROOT.'/eg-web-common/perl',
