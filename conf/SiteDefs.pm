@@ -20,137 +20,95 @@ package EG::Metazoa::SiteDefs;
 use strict;
 
 sub update_conf {
-    $SiteDefs::ENSEMBL_PORT           = 8001;
+  $SiteDefs::ENSEMBL_PORT              = 8001;
+  $SiteDefs::ENSEMBL_SERVERNAME        = 'metazoa.ensembl.org';
+  $SiteDefs::ENSEMBL_PRIMARY_SPECIES   = 'Aedes_aegypti'; # Default species
+  $SiteDefs::ENSEMBL_SECONDARY_SPECIES = 'Anopheles_gambiae'; # Default species
 
-    $SiteDefs::ENSEMBL_SERVERNAME     = 'metazoa.ensembl.org';
+  $SiteDefs::ENSEMBL_DATASETS = [sort qw(
+    Acyrthosiphon_pisum
+    Aedes_aegypti
+    Amphimedon_queenslandica
+    Anopheles_darlingi
+    Anopheles_gambiae
+    Apis_mellifera
+    Atta_cephalotes
+    Belgica_antarctica
+    Bombus_impatiens
+    Bombyx_mori
+    Brugia_malayi
+    Caenorhabditis_brenneri
+    Caenorhabditis_briggsae
+    Caenorhabditis_elegans
+    Caenorhabditis_japonica
+    Caenorhabditis_remanei
+    Capitella_teleta
+    Crassostrea_gigas
+    Culex_quinquefasciatus
+    Danaus_plexippus
+    Daphnia_pulex
+    Dendroctonus_ponderosae
+    Drosophila_ananassae
+    Drosophila_erecta
+    Drosophila_grimshawi
+    Drosophila_melanogaster
+    Drosophila_mojavensis
+    Drosophila_persimilis
+    Drosophila_pseudoobscura
+    Drosophila_sechellia
+    Drosophila_simulans
+    Drosophila_virilis
+    Drosophila_willistoni
+    Drosophila_yakuba
+    Heliconius_melpomene
+    Helobdella_robusta
+    Ixodes_scapularis
+    Lepeophtheirus_salmonis
+    Lingula_anatina
+    Loa_loa
+    Lottia_gigantea
+    Lucilia_cuprina
+    Megaselia_scalaris
+    Melitaea_cinxia
+    Mnemiopsis_leidyi
+    Nasonia_vitripennis
+    Nematostella_vectensis
+    Octopus_bimaculoides
+    Onchocerca_volvulus
+    Pediculus_humanus
+    Pristionchus_pacificus
+    Rhodnius_prolixus
+    Sarcoptes_scabiei
+    Schistosoma_mansoni
+    Solenopsis_invicta
+    Stegodyphus_mimosarum
+    Strigamia_maritima
+    Strongylocentrotus_purpuratus
+    Strongyloides_ratti
+    Tetranychus_urticae
+    Thelohanellus_kitauei
+    Tribolium_castaneum
+    Trichinella_spiralis
+    Trichoplax_adhaerens
+    Zootermopsis_nevadensis
+  )];
 
-    map {delete($SiteDefs::__species_aliases{$_}) } keys %SiteDefs::__species_aliases;
+  @SiteDefs::ENSEMBL_PERL_DIRS    = (
+    $SiteDefs::ENSEMBL_WEBROOT.'/perl',
+    $SiteDefs::ENSEMBL_SERVERROOT.'/eg-web-common/perl',
+    $SiteDefs::ENSEMBL_SERVERROOT.'/eg-web-metazoa/perl',
+  );
 
-    $SiteDefs::ENSEMBL_PRIMARY_SPECIES  = 'Aedes_aegypti'; # Default species
-    $SiteDefs::ENSEMBL_SECONDARY_SPECIES  = 'Anopheles_gambiae'; # Default species
-
-# --- Release 1
-  $SiteDefs::__species_aliases{ 'Aedes_aegypti'                  } = [qw(aa aaeg aedes )];
-  $SiteDefs::__species_aliases{ 'Anopheles_gambiae'              } = [qw(ag agam mosquito mos anopheles)];
-  $SiteDefs::__species_aliases{ 'Drosophila_melanogaster'        } = [qw(dm dmel fly D.melanogaster)];
-  $SiteDefs::__species_aliases{ 'Caenorhabditis_elegans'         } = [qw(ce cele worm elegans C.elegans)];
-  $SiteDefs::__species_aliases{ 'Culex_quinquefasciatus'} = [qw(cq culex common_house_mosquito Culex_pipiens C.quinquefasciatus C.pipiens )];
-  $SiteDefs::__species_aliases{ 'Ixodes_scapularis'} = [qw(is ixodes blacklegged_tick black_legged_tick I.scapularis)];
-
-# --- Release 2
-  $SiteDefs::__species_aliases{ 'Drosophila_ananassae'        } = [qw(Drosophila_ananassae)];
-  $SiteDefs::__species_aliases{ 'Drosophila_erecta'        } = [qw(Drosophila_erecta)];
-  $SiteDefs::__species_aliases{ 'Drosophila_grimshawi'        } = [qw(Drosophila_grimshawi)];
-  $SiteDefs::__species_aliases{ 'Drosophila_mojavensis'        } = [qw(Drosophila_mojavensis)];
-  $SiteDefs::__species_aliases{ 'Drosophila_persimilis'        } = [qw(Drosophila_persimilis)];
-  $SiteDefs::__species_aliases{ 'Drosophila_pseudoobscura'        } = [qw(Drosophila_pseudoobscura)];
-  $SiteDefs::__species_aliases{ 'Drosophila_sechellia'        } = [qw(Drosophila_sechellia)];
-  $SiteDefs::__species_aliases{ 'Drosophila_simulans'        } = [qw(Drosophila_simulans)];
-  $SiteDefs::__species_aliases{ 'Drosophila_virilis'        } = [qw(Drosophila_virilis)];
-  $SiteDefs::__species_aliases{ 'Drosophila_willistoni'        } = [qw(Drosophila_willistoni)];
-  $SiteDefs::__species_aliases{ 'Drosophila_yakuba'        } = [qw(Drosophila_yakuba)];
-
-
-  $SiteDefs::__species_aliases{ 'Caenorhabditis_brenneri'         } = [qw(cbre)];
-  $SiteDefs::__species_aliases{ 'Caenorhabditis_briggsae'         } = [qw(cbri)];
-  $SiteDefs::__species_aliases{ 'Caenorhabditis_japonica'         } = [qw(cjap)];
-  $SiteDefs::__species_aliases{ 'Caenorhabditis_remanei'         } = [qw(crem)];
-
-# --- Release 4
-  $SiteDefs::__species_aliases{ 'Pediculus_humanus'         } = [qw(ph pediculus body_louse louse)];
-
-# --- Release 5
-  $SiteDefs::__species_aliases{ 'Pristionchus_pacificus' } = [qw(pp pristionchus)];
-
-# --- Release 7
-  $SiteDefs::__species_aliases{ 'Acyrthosiphon_pisum' } = [qw(ap apisum)];
-
-# --- Release 8
-  $SiteDefs::__species_aliases{ 'Strongylocentrotus_purpuratus' } = [qw(Strongylocentrotus_purpuratus)];
-  $SiteDefs::__species_aliases{ 'Schistosoma_mansoni' } = [qw(Schistosoma_mansoni)];
-  $SiteDefs::__species_aliases{ 'Nematostella_vectensis' } = [qw(Nematostella_vectensis)];
-  $SiteDefs::__species_aliases{ 'Trichoplax_adhaerens' } = [qw(Trichoplax_adhaerens)];
-  $SiteDefs::__species_aliases{ 'Apis_mellifera' } = [qw(Apis_mellifera)];
-
-# --- Release 9
-   $SiteDefs::__species_aliases{ 'Daphnia_pulex' } = [qw(Daphnia_pulex)];
-
-# --- Release 11
+  $SiteDefs::EG_DIVISION      = 'metazoa';
+  $SiteDefs::SITE_NAME        = 'Ensembl Metazoa';
+  $SiteDefs::ENSEMBL_SITETYPE = 'Ensembl Metazoa';
+  $SiteDefs::SITE_FTP         = 'ftp://ftp.ensemblgenomes.org/pub/metazoa';
+  push @SiteDefs::ENSEMBL_HTDOCS_DIRS,  $SiteDefs::ENSEMBL_SERVERROOT.'/../biomarts/metazoa/biomart-perl/htdocs';
   
-    $SiteDefs::__species_aliases{ 'Amphimedon_queenslandica' } = [qw(Amphimedon_queenslandica)];
-# --- Release 12
-    $SiteDefs::__species_aliases{ 'Tribolium_castaneum' } = [qw(Tribolium_castaneum)];
-    $SiteDefs::__species_aliases{ 'Bombyx_mori' } = [qw(Bombyx_mori)];
-    $SiteDefs::__species_aliases{ 'Atta_cephalotes' } = [qw(Atta_cephalotes)];
-# --- Release 13
-    $SiteDefs::__species_aliases{ 'Trichinella_spiralis' } = [qw(trichinella_spiralis)];
-# --- Release 14
-    $SiteDefs::__species_aliases{ 'Danaus_plexippus' } = [qw(danaus_plexippus)];    
-    $SiteDefs::__species_aliases{ 'Heliconius_melpomene' } = [qw(heliconius_melpomene)];    
+  $SiteDefs::ENA_COLLECTION_ID = 223;
+  $SiteDefs::ENA_SAMPLE_SEQ    = "MSLKPKIVEFVDVWPRLRCIAESVITLTKVERSVWNTSFSDVYTLCVAQPEPMADRLYGETKHFLEQHVQEMLAKKVLIEGECSHSNGGPDLLQRYYITWMEYSQGIKYLHQLYIYLNQQHIKKQKITDTESFYGNLSSDAAEQMEIGELGLDIWRLYMIEYLSSELVRHILEGIAADRASNGTLDHHRVQIINGVIHSFVEVQDYKKTGSLKLYQELFEGPMLEASGAYYTDEANKLLHRCSVSEYMQEVIRILEYESRRAQKFLHVSSLPKLRKECEEKFINDRLGFIYSECREMVSEERRQDLRNMYVVLKPIPDNLKSELITTFLDHIKSEGLQTVSALKGENIHIAFVENMLKVHHKYQELIADVFENDSLFLSALDKACASVINRRPTERQPCRSAEYVAKYCDTLLKKSKTCEAEIDQKLTNNITIFKYIEDKDVYQKFYSRLLAKRLIHEQSQSMDAEEGMINRLKQACGYEFTNKLHRMFTDISVSVDLNNKFNTHLKDSNVDLGINLAIKVLQAGAWPLGSTQVIPFAVPQEFEKSIKMFEDYYHKLFSGRKLTWLHHMCHGELKLSHLKKSYIVTMQTYQMAIILLFETCDSLSCREIQNTLQLNDETFQKHMQPIIESKLLNASSENLAGETRIELNLDYTNKRTKFK";
 
-# --- Release 16
-    $SiteDefs::__species_aliases{ 'Nasonia_vitripennis' } = [qw(nasonia_vitripennis)];    
-    $SiteDefs::__species_aliases{ 'Anopheles_darlingi' } = [qw(anopheles_darlingi)];    
-
-# --- Release 18
-    $SiteDefs::__species_aliases{ 'Brugia_malayi' } = [qw(brugia_malayi)];    
-    $SiteDefs::__species_aliases{ 'Loa_loa' } = [qw(loa_loa)];  
-    $SiteDefs::__species_aliases{ 'Megaselia_scalaris' } = [qw(megaselia_scalaris)];    
-    $SiteDefs::__species_aliases{ 'Strigamia_maritima' } = [qw(strigamia_maritima)];  
-
-# --- Release 19
-    $SiteDefs::__species_aliases{'Tetranychus_urticae'} = [qw(Tetranychus_urticae)];
-    $SiteDefs::__species_aliases{'Rhodnius_prolixus'} = [qw(Rhodnius_prolixus)];
-    $SiteDefs::__species_aliases{'Lottia_gigantea'} = [qw(Lottia_gigantea)];
-    $SiteDefs::__species_aliases{'Helobdella_robusta'} = [qw(Helobdella_robusta)];
-    $SiteDefs::__species_aliases{'Capitella_teleta'} = [qw(Capitella_teleta)];
-    $SiteDefs::__species_aliases{'Crassostrea_gigas'} = [qw(Crassostrea_gigas)];
-
-# --- Release 21
-    $SiteDefs::__species_aliases{'Dendroctonus_ponderosae'} = [qw(Dendroctonus_ponderosae)];
-    $SiteDefs::__species_aliases{'Solenopsis_invicta'} = [qw(Solenopsis_invicta)];
-
-# --- Release 22
-    $SiteDefs::__species_aliases{'Onchocerca_volvulus'} = [qw(Onchocerca_volvulus)];
-
-# --- Release 23
-    $SiteDefs::__species_aliases{'Mnemiopsis_leidyi'} = [qw(Mnemiopsis_leidyi)];
-    $SiteDefs::__species_aliases{'Melitaea_cinxia'} = [qw(Melitaea_cinxia)];
-    $SiteDefs::__species_aliases{'Zootermopsis_nevadensis'} = [qw(Zootermopsis_nevadensis)];
-
-# --- Release 31
-    $SiteDefs::__species_aliases{'Belgica_antarctica'} = [qw(Belgica_antarctica)];
-    $SiteDefs::__species_aliases{'Bombus_impatiens'} = [qw(Bombus_impatiens)];
-    $SiteDefs::__species_aliases{'Lepeophtheirus_salmonis'} = [qw(Lepeophtheirus_salmonis)];
-    $SiteDefs::__species_aliases{'Lingula_anatina'} = [qw(Lingula_anatina)];
-    $SiteDefs::__species_aliases{'Lucilia_cuprina'} = [qw(Lucilia_cuprina)];
-    $SiteDefs::__species_aliases{'Octopus_bimaculoides'} = [qw(Octopus_bimaculoides)];
-    $SiteDefs::__species_aliases{'Sarcoptes_scabiei'} = [qw(Sarcoptes_scabiei)];
-    $SiteDefs::__species_aliases{'Stegodyphus_mimosarum'} = [qw(Stegodyphus_mimosarum)];
-    $SiteDefs::__species_aliases{'Strongyloides_ratti'} = [qw(Strongyloides_ratti)];
-    $SiteDefs::__species_aliases{'Thelohanellus_kitauei'} = [qw(Thelohanellus_kitauei)];
-
-
-
-    @SiteDefs::ENSEMBL_PERL_DIRS    = (
-                                           $SiteDefs::ENSEMBL_WEBROOT.'/perl',
-                                           $SiteDefs::ENSEMBL_SERVERROOT.'/eg-web-common/perl',
-                                           $SiteDefs::ENSEMBL_SERVERROOT.'/eg-web-metazoa/perl',
-				       );
-
-    $SiteDefs::EG_DIVISION = 'metazoa';
-    $SiteDefs::SITE_NAME = 'Ensembl Metazoa';
-    $SiteDefs::ENSEMBL_SITETYPE = 'Ensembl Metazoa';
-    $SiteDefs::SITE_FTP= 'ftp://ftp.ensemblgenomes.org/pub/metazoa';
-    push @SiteDefs::ENSEMBL_HTDOCS_DIRS,  $SiteDefs::ENSEMBL_SERVERROOT.'/../biomarts/metazoa/biomart-perl/htdocs';
-    
-    $SiteDefs::DOCSEARCH_INDEX_DIR = $SiteDefs::ENSEMBL_SERVERROOT.'/eg-web-metazoa/data/docsearch';
-
-    $SiteDefs::ENA_COLLECTION_ID = 223;
-
-    $SiteDefs::ENA_SAMPLE_SEQ = "MSLKPKIVEFVDVWPRLRCIAESVITLTKVERSVWNTSFSDVYTLCVAQPEPMADRLYGETKHFLEQHVQEMLAKKVLIEGECSHSNGGPDLLQRYYITWMEYSQGIKYLHQLYIYLNQQHIKKQKITDTESFYGNLSSDAAEQMEIGELGLDIWRLYMIEYLSSELVRHILEGIAADRASNGTLDHHRVQIINGVIHSFVEVQDYKKTGSLKLYQELFEGPMLEASGAYYTDEANKLLHRCSVSEYMQEVIRILEYESRRAQKFLHVSSLPKLRKECEEKFINDRLGFIYSECREMVSEERRQDLRNMYVVLKPIPDNLKSELITTFLDHIKSEGLQTVSALKGENIHIAFVENMLKVHHKYQELIADVFENDSLFLSALDKACASVINRRPTERQPCRSAEYVAKYCDTLLKKSKTCEAEIDQKLTNNITIFKYIEDKDVYQKFYSRLLAKRLIHEQSQSMDAEEGMINRLKQACGYEFTNKLHRMFTDISVSVDLNNKFNTHLKDSNVDLGINLAIKVLQAGAWPLGSTQVIPFAVPQEFEKSIKMFEDYYHKLFSGRKLTWLHHMCHGELKLSHLKKSYIVTMQTYQMAIILLFETCDSLSCREIQNTLQLNDETFQKHMQPIIESKLLNASSENLAGETRIELNLDYTNKRTKFK";
-
-    $SiteDefs::GXA = 1;
+  $SiteDefs::GXA = 1;
 }
 
 1;
