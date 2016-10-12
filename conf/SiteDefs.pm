@@ -24,6 +24,7 @@ sub update_conf {
   $SiteDefs::ENSEMBL_SERVERNAME        = 'metazoa.ensembl.org';
   $SiteDefs::ENSEMBL_PRIMARY_SPECIES   = 'Aedes_aegypti'; # Default species
   $SiteDefs::ENSEMBL_SECONDARY_SPECIES = 'Anopheles_gambiae'; # Default species
+  $SiteDefs::ENSEMBL_HMMER_ENABLED     = 1;
 
   $SiteDefs::ENSEMBL_DATASETS = [sort qw(
     Acyrthosiphon_pisum
