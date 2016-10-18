@@ -157,7 +157,7 @@ sub content {
         (my $species = $_->{'species'}{'scientific_name'}) =~ s/ /_/;
 
         ## Is this hub already attached?
-        my ($ignore, $params) = check_attachment($self, $_->{'hub'}{'url'});
+        my ($ignore, $params) = check_attachment($hub, $_->{'hub'}{'url'});
         my $button;
         if ($params->{'reattach'}) {
           my $label;
