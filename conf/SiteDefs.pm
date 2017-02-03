@@ -28,10 +28,12 @@ sub update_conf {
 
   $SiteDefs::ENSEMBL_DATASETS = [sort qw(
     Acyrthosiphon_pisum
+    Adineta_vaga
     Aedes_aegypti
     Amphimedon_queenslandica
     Anopheles_darlingi
     Anopheles_gambiae
+    Anoplophora_glabripennis
     Apis_mellifera
     Atta_cephalotes
     Belgica_antarctica
@@ -69,6 +71,7 @@ sub update_conf {
     Loa_loa
     Lottia_gigantea
     Lucilia_cuprina
+    Mayetiola_destructor
     Megaselia_scalaris
     Melitaea_cinxia
     Mnemiopsis_leidyi
