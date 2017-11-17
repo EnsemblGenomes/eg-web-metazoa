@@ -38,6 +38,7 @@ sub update_conf {
     atta_cephalotes
     belgica_antarctica
     bombus_impatiens
+    bombus_terrestris
     bombyx_mori
     brugia_malayi
     caenorhabditis_brenneri
