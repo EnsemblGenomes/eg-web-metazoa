@@ -1498,7 +1498,7 @@
             "id": "Pless_S1_File",
             "species": "aedes_aegypti",
             "strict_name_match": 0,
-            "type": "local",
+            "type": "remote",
             "use_seq_region_synonyms": 1
         },
         {
@@ -2977,7 +2977,7 @@
             "id": "Aedes_Evans_2015_AxiomGT1_calls",
             "species": "aedes_aegypti",
             "strict_name_match": 0,
-            "type": "local",
+            "type": "remote",
             "use_seq_region_synonyms": 1
         },
         {
@@ -4447,7 +4447,7 @@
             "id": "Aedes_JP-David_2014_IR",
             "species": "aedes_aegypti",
             "strict_name_match": 0,
-            "type": "local",
+            "type": "remote",
             "use_seq_region_synonyms": 1
         },
         {
@@ -4786,7 +4786,7 @@
             "id": "Aedes_Faucon_2015_IR",
             "species": "aedes_aegypti",
             "strict_name_match": 0,
-            "type": "local",
+            "type": "remote",
             "use_seq_region_synonyms": 1
         },
         {
@@ -5724,7 +5724,7 @@
             "id": "Aedes_Bonizzono_2013_insecticide_resistance",
             "species": "aedes_aegypti",
             "strict_name_match": 0,
-            "type": "local",
+            "type": "remote",
             "use_seq_region_synonyms": 1
         },
         {
@@ -7224,7 +7224,7 @@
             "id": "Saarman-EvoApps-2017-SNPs",
             "species": "aedes_aegypti",
             "strict_name_match": 0,
-            "type": "local",
+            "type": "remote",
             "use_seq_region_synonyms": 1
         }
     ]
