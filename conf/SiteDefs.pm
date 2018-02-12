@@ -91,6 +91,7 @@ sub update_conf {
     strigamia_maritima
     strongylocentrotus_purpuratus
     strongyloides_ratti
+    teleopsis_dalmanni
     tetranychus_urticae
     thelohanellus_kitauei
     tribolium_castaneum
