@@ -51,6 +51,7 @@ sub update_conf {
     crassostrea_gigas
     culex_quinquefasciatus
     danaus_plexippus
+    daphnia_magna
     daphnia_pulex
     dendroctonus_ponderosae
     drosophila_ananassae
