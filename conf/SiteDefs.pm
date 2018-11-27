@@ -50,6 +50,7 @@ sub update_conf {
     capitella_teleta
     crassostrea_gigas
     culex_quinquefasciatus
+    culicoides_sonorensis
     danaus_plexippus
     daphnia_magna
     daphnia_pulex
@@ -66,6 +67,7 @@ sub update_conf {
     drosophila_virilis
     drosophila_willistoni
     drosophila_yakuba
+    folsomia_candida
     heliconius_melpomene
     helobdella_robusta
     ixodes_scapularis
@@ -82,6 +84,7 @@ sub update_conf {
     nematostella_vectensis
     octopus_bimaculoides
     onchocerca_volvulus
+    orchesella_cincta
     pediculus_humanus
     pristionchus_pacificus
     rhodnius_prolixus
