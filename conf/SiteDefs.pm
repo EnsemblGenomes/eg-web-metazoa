@@ -41,6 +41,7 @@ sub update_conf {
     bombus_impatiens
     bombus_terrestris
     bombyx_mori
+    branchiostoma_lanceolatum
     brugia_malayi
     caenorhabditis_brenneri
     caenorhabditis_briggsae
@@ -55,6 +56,7 @@ sub update_conf {
     daphnia_magna
     daphnia_pulex
     dendroctonus_ponderosae
+    dinothrombium_tinctorium
     drosophila_ananassae
     drosophila_erecta
     drosophila_grimshawi
@@ -72,6 +74,7 @@ sub update_conf {
     helobdella_robusta
     ixodes_scapularis
     lepeophtheirus_salmonis
+    leptotrombidium_deliense
     lingula_anatina
     loa_loa
     lottia_gigantea
