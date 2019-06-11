@@ -26,6 +26,7 @@ sub update_conf {
   $SiteDefs::ENSEMBL_PRIMARY_SPECIES   = 'Aedes_aegypti'; # Default species
   $SiteDefs::ENSEMBL_SECONDARY_SPECIES = 'Anopheles_gambiae'; # Default species
   $SiteDefs::ENSEMBL_HMMER_ENABLED     = 1;
+  $SiteDefs::DATAFILE_BASE_PATH        = defer { sprintf '%s/%s',  $SiteDefs::DATAFILE_ROOT, $SiteDefs::SUBDOMAIN_DIR};
 
   $SiteDefs::PRODUCTION_NAMES = [sort qw(
     acyrthosiphon_pisum
