@@ -72,6 +72,7 @@ sub update_conf {
     folsomia_candida
     heliconius_melpomene
     helobdella_robusta
+    hofstenia_miamia
     ixodes_scapularis
     lepeophtheirus_salmonis
     leptotrombidium_deliense
