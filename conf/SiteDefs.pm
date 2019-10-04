@@ -23,7 +23,7 @@ sub update_conf {
   $SiteDefs::DIVISION = 'metazoa';
   $SiteDefs::ENSEMBL_PORT              = 8001;
   $SiteDefs::ENSEMBL_SERVERNAME        = 'metazoa.ensembl.org';
-  $SiteDefs::ENSEMBL_PRIMARY_SPECIES   = 'Aedes_aegypti'; # Default species
+  $SiteDefs::ENSEMBL_PRIMARY_SPECIES   = 'Aedes_aegypti_lvpagw'; # Default species
   $SiteDefs::ENSEMBL_SECONDARY_SPECIES = 'Anopheles_gambiae'; # Default species
   $SiteDefs::ENSEMBL_HMMER_ENABLED     = 1;
 
