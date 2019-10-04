@@ -30,14 +30,35 @@ sub update_conf {
   $SiteDefs::PRODUCTION_NAMES = [sort qw(
     acyrthosiphon_pisum
     adineta_vaga
-    aedes_aegypti
+    aedes_aegyptii_lvpagw
+    aedes_albopictus
     amphimedon_queenslandica
+    anopheles_albimanus
+    anopheles_arabiensis
+    anopheles_atroparvus
+    anopheles_coluzzii
+    anopheles_coluzzii_ngousso
+    anopheles_culicifacies
     anopheles_darlingi
+    anopheles_dirus
+    anopheles_epiroticus
+    anopheles_farauti
+    anopheles_funestus
     anopheles_gambiae
+    anopheles_maculatus
+    anopheles_melas
+    anopheles_merus
+    anopheles_minimus
+    anopheles_quadriannulatus
+    anopheles_sinensis
+    anopheles_sinensis_china
+    anopheles_stephensi
+    anopheles_stephensi_indian
     anoplophora_glabripennis
     apis_mellifera
     atta_cephalotes
     belgica_antarctica
+    biomphalaria_glabrata
     bombus_impatiens
     bombus_terrestris
     bombyx_mori
@@ -49,6 +70,7 @@ sub update_conf {
     caenorhabditis_japonica
     caenorhabditis_remanei
     capitella_teleta
+    cimex_lectularius
     crassostrea_gigas
     culex_quinquefasciatus
     culicoides_sonorensis
@@ -70,32 +92,43 @@ sub update_conf {
     drosophila_willistoni
     drosophila_yakuba
     folsomia_candida
+    glossina_austeni
+    glossina_brevipalpis
+    glossina_fuscipes
+    glossina_morsitans
+    glossina_pallidipes
+    glossina_palpalis
     heliconius_melpomene
     helobdella_robusta
     hofstenia_miamia
     ixodes_scapularis
+    ixodes_scapularis_ise6
     lepeophtheirus_salmonis
     leptotrombidium_deliense
     lingula_anatina
     loa_loa
     lottia_gigantea
     lucilia_cuprina
+    lutzomyia_longipalpis
     mayetiola_destructor
     megaselia_scalaris
     melitaea_cinxia
     mnemiopsis_leidyi
+    musca_domestica
     nasonia_vitripennis
     nematostella_vectensis
     octopus_bimaculoides
     onchocerca_volvulus
     orchesella_cincta
     pediculus_humanus
+    phlebotomus_papatasi
     pristionchus_pacificus
     rhodnius_prolixus
     sarcoptes_scabiei
     schistosoma_mansoni
     solenopsis_invicta
     stegodyphus_mimosarum
+    stomoxys_calcitrans
     strigamia_maritima
     strongylocentrotus_purpuratus
     strongyloides_ratti
