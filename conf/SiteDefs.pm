@@ -30,7 +30,7 @@ sub update_conf {
   $SiteDefs::PRODUCTION_NAMES = [sort qw(
     acyrthosiphon_pisum
     adineta_vaga
-    aedes_aegypti_lvpagw
+    aedes_aegypti_lvpagwg
     aedes_albopictus
     amphimedon_queenslandica
     anopheles_albimanus
