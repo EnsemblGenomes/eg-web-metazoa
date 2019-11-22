@@ -85,11 +85,11 @@
                 "scaffold_00079",
                 "scaffold_00080"
             ],
-            "filename_template": "ftp://ftp.ensemblgenomes.org/pub/misc_data/metazoa/vcf/anopheles_stephensi_indian/VBP0000187_stephensiI.vcf.gz",
+            "filename_template": "/vcf/anopheles_stephensi_indian/VBP0000187_stephensiI.vcf.gz",
             "id": "VBP0000187_stephensiI",
             "species": "anopheles_stephensi_indian",
             "strict_name_match": 0,
-            "type": "remote",
+            "type": "local",
             "use_seq_region_synonyms": 1
         }
     ]

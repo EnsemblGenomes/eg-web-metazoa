@@ -8,11 +8,11 @@
                 "CM012071.1",
                 "CM012072.1"
             ],
-            "filename_template": "ftp://ftp.ensemblgenomes.org/pub/misc_data/metazoa/vcf/anopheles_funestus/VBP0000119_QC_filtered_funestus_folonzo_AfunF3.vcf.gz",
+            "filename_template": "/vcf/anopheles_funestus/VBP0000119_QC_filtered_funestus_folonzo_AfunF3.vcf.gz",
             "id": "VBP0000119_QC_filtered_funestus_folonzo_AfunF3",
             "species": "anopheles_funestus",
             "strict_name_match": 0,
-            "type": "remote",
+            "type": "local",
             "use_seq_region_synonyms": 1
         },
         {
@@ -22,11 +22,11 @@
                 "CM012071.1",
                 "CM012072.1"
             ],
-            "filename_template": "ftp://ftp.ensemblgenomes.org/pub/misc_data/metazoa/vcf/anopheles_funestus/VBP0000119_QC_filtered_funestus_kiribina_AfunF3.vcf.gz",
+            "filename_template": "/vcf/anopheles_funestus/VBP0000119_QC_filtered_funestus_kiribina_AfunF3.vcf.gz",
             "id": "VBP0000119_QC_filtered_funestus_kiribina_AfunF3",
             "species": "anopheles_funestus",
             "strict_name_match": 0,
-            "type": "remote",
+            "type": "local",
             "use_seq_region_synonyms": 1
         }
     ]

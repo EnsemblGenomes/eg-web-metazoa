@@ -10429,11 +10429,11 @@
                 "AXCK02030080",
                 "AXCK02026242"
             ],
-            "filename_template": "ftp://ftp.ensemblgenomes.org/pub/misc_data/metazoa/vcf/anopheles_sinensis/VBP0000119_QC_filtered_sinensis_ylr001_2.vcf.gz",
+            "filename_template": "/vcf/anopheles_sinensis/VBP0000119_QC_filtered_sinensis_ylr001_2.vcf.gz",
             "id": "VBP0000119_QC_filtered_sinensis_ylr001_2",
             "species": "anopheles_sinensis",
             "strict_name_match": 0,
-            "type": "remote",
+            "type": "local",
             "use_seq_region_synonyms": 1
         },
         {
@@ -20859,11 +20859,11 @@
                 "AXCK02030080",
                 "AXCK02026242"
             ],
-            "filename_template": "ftp://ftp.ensemblgenomes.org/pub/misc_data/metazoa/vcf/anopheles_sinensis/VBP0000119_QC_filtered_sinensis_yls001_1.vcf.gz",
+            "filename_template": "/vcf/anopheles_sinensis/VBP0000119_QC_filtered_sinensis_yls001_1.vcf.gz",
             "id": "VBP0000119_QC_filtered_sinensis_yls001_1",
             "species": "anopheles_sinensis",
             "strict_name_match": 0,
-            "type": "remote",
+            "type": "local",
             "use_seq_region_synonyms": 1
         }
     ]

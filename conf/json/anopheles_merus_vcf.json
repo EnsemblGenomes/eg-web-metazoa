@@ -2014,11 +2014,11 @@
                 "KI915633",
                 "KI915942"
             ],
-            "filename_template": "ftp://ftp.ensemblgenomes.org/pub/misc_data/metazoa/vcf/anopheles_merus/VBP0000119_QC_filtered_merus_kenya.vcf.gz",
+            "filename_template": "/vcf/anopheles_merus/VBP0000119_QC_filtered_merus_kenya.vcf.gz",
             "id": "VBP0000119_QC_filtered_merus_kenya",
             "species": "anopheles_merus",
             "strict_name_match": 0,
-            "type": "remote",
+            "type": "local",
             "use_seq_region_synonyms": 1
         },
         {
@@ -4035,11 +4035,11 @@
                 "KI915633",
                 "KI915942"
             ],
-            "filename_template": "ftp://ftp.ensemblgenomes.org/pub/misc_data/metazoa/vcf/anopheles_merus/VBP0000119_QC_filtered_merus_mpumalanga.vcf.gz",
+            "filename_template": "/vcf/anopheles_merus/VBP0000119_QC_filtered_merus_mpumalanga.vcf.gz",
             "id": "VBP0000119_QC_filtered_merus_mpumalanga",
             "species": "anopheles_merus",
             "strict_name_match": 0,
-            "type": "remote",
+            "type": "local",
             "use_seq_region_synonyms": 1
         }
     ]

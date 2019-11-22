@@ -2642,11 +2642,11 @@
                 "KB671597",
                 "KB672281"
             ],
-            "filename_template": "ftp://ftp.ensemblgenomes.org/pub/misc_data/metazoa/vcf/anopheles_epiroticus/VBP0000119_QC_filtered_epiroticus_resistant.vcf.gz",
+            "filename_template": "/vcf/anopheles_epiroticus/VBP0000119_QC_filtered_epiroticus_resistant.vcf.gz",
             "id": "VBP0000119_QC_filtered_epiroticus_resistant",
             "species": "anopheles_epiroticus",
             "strict_name_match": 0,
-            "type": "remote",
+            "type": "local",
             "use_seq_region_synonyms": 1
         },
         {
@@ -5284,11 +5284,11 @@
                 "KB671597",
                 "KB672281"
             ],
-            "filename_template": "ftp://ftp.ensemblgenomes.org/pub/misc_data/metazoa/vcf/anopheles_epiroticus/VBP0000119_QC_filtered_epiroticus_sensitive.vcf.gz",
+            "filename_template": "/vcf/anopheles_epiroticus/VBP0000119_QC_filtered_epiroticus_sensitive.vcf.gz",
             "id": "VBP0000119_QC_filtered_epiroticus_sensitive",
             "species": "anopheles_epiroticus",
             "strict_name_match": 0,
-            "type": "remote",
+            "type": "local",
             "use_seq_region_synonyms": 1
         }
     ]
