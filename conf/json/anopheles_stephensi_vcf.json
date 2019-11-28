@@ -1073,11 +1073,11 @@
                 "KB665296",
                 "KB664690"
             ],
-            "filename_template": "ftp://ftp.ensemblgenomes.org/pub/misc_data/metazoa/vcf/anopheles_stephensi/VBP0000119_QC_filtered_stephensi_chb.vcf.gz",
+            "filename_template": "/vcf/anopheles_stephensi/VBP0000119_QC_filtered_stephensi_chb.vcf.gz",
             "id": "VBP0000119_QC_filtered_stephensi_chb",
             "species": "anopheles_stephensi",
             "strict_name_match": 0,
-            "type": "remote",
+            "type": "local",
             "use_seq_region_synonyms": 1
         },
         {
@@ -2159,11 +2159,11 @@
                 "KB665296",
                 "KB664690"
             ],
-            "filename_template": "ftp://ftp.ensemblgenomes.org/pub/misc_data/metazoa/vcf/anopheles_stephensi/VBP0000119_QC_filtered_stephensi_ban.vcf.gz",
+            "filename_template": "/vcf/anopheles_stephensi/VBP0000119_QC_filtered_stephensi_ban.vcf.gz",
             "id": "VBP0000119_QC_filtered_stephensi_ban",
             "species": "anopheles_stephensi",
             "strict_name_match": 0,
-            "type": "remote",
+            "type": "local",
             "use_seq_region_synonyms": 1
         },
         {
@@ -3238,11 +3238,11 @@
                 "KB665296",
                 "KB664690"
             ],
-            "filename_template": "ftp://ftp.ensemblgenomes.org/pub/misc_data/metazoa/vcf/anopheles_stephensi/VBP0000119_QC_filtered_stephensi_kaz.vcf.gz",
+            "filename_template": "/vcf/anopheles_stephensi/VBP0000119_QC_filtered_stephensi_kaz.vcf.gz",
             "id": "VBP0000119_QC_filtered_stephensi_kaz",
             "species": "anopheles_stephensi",
             "strict_name_match": 0,
-            "type": "remote",
+            "type": "local",
             "use_seq_region_synonyms": 1
         },
         {
@@ -4315,11 +4315,11 @@
                 "KB665296",
                 "KB664690"
             ],
-            "filename_template": "ftp://ftp.ensemblgenomes.org/pub/misc_data/metazoa/vcf/anopheles_stephensi/VBP0000119_QC_filtered_stephensi_irn.vcf.gz",
+            "filename_template": "/vcf/anopheles_stephensi/VBP0000119_QC_filtered_stephensi_irn.vcf.gz",
             "id": "VBP0000119_QC_filtered_stephensi_irn",
             "species": "anopheles_stephensi",
             "strict_name_match": 0,
-            "type": "remote",
+            "type": "local",
             "use_seq_region_synonyms": 1
         },
         {
@@ -5388,11 +5388,11 @@
                 "KB665296",
                 "KB664690"
             ],
-            "filename_template": "ftp://ftp.ensemblgenomes.org/pub/misc_data/metazoa/vcf/anopheles_stephensi/VBP0000119_QC_filtered_stephensi_wban.vcf.gz",
+            "filename_template": "/vcf/anopheles_stephensi/VBP0000119_QC_filtered_stephensi_wban.vcf.gz",
             "id": "VBP0000119_QC_filtered_stephensi_wban",
             "species": "anopheles_stephensi",
             "strict_name_match": 0,
-            "type": "remote",
+            "type": "local",
             "use_seq_region_synonyms": 1
         }
     ]

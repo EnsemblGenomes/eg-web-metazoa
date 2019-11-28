@@ -238,11 +238,11 @@
                 "supercont3.2838",
                 "supercont3.3121"
             ],
-            "filename_template": "ftp://ftp.ensemblgenomes.org/pub/misc_data/metazoa/vcf/culex_quinquefasciatus/VBP0000454_Kothera_2019_CpipJ2.vcf.gz",
+            "filename_template": "/vcf/culex_quinquefasciatus/VBP0000454_Kothera_2019_CpipJ2.vcf.gz",
             "id": "VBP0000454_Kothera_2019_CpipJ2",
             "species": "culex_quinquefasciatus",
             "strict_name_match": 0,
-            "type": "remote",
+            "type": "local",
             "use_seq_region_synonyms": 1
         },
         {
@@ -250,11 +250,11 @@
             "chromosomes": [
                 "supercont3.106"
             ],
-            "filename_template": "ftp://ftp.ensemblgenomes.org/pub/misc_data/metazoa/vcf/culex_quinquefasciatus/VBP0000205_Martins_2017_Ace1_CpipJ2.vcf.gz",
+            "filename_template": "/vcf/culex_quinquefasciatus/VBP0000205_Martins_2017_Ace1_CpipJ2.vcf.gz",
             "id": "VBP0000205_Martins_2017_Ace1_CpipJ2",
             "species": "culex_quinquefasciatus",
             "strict_name_match": 0,
-            "type": "remote",
+            "type": "local",
             "use_seq_region_synonyms": 1
         },
         {
@@ -262,11 +262,11 @@
             "chromosomes": [
                 "supercont3.182"
             ],
-            "filename_template": "ftp://ftp.ensemblgenomes.org/pub/misc_data/metazoa/vcf/culex_quinquefasciatus/VBP0000205_Martins_2017_Vgsc_CpipJ2.vcf.gz",
+            "filename_template": "/vcf/culex_quinquefasciatus/VBP0000205_Martins_2017_Vgsc_CpipJ2.vcf.gz",
             "id": "VBP0000205_Martins_2017_Vgsc_CpipJ2",
             "species": "culex_quinquefasciatus",
             "strict_name_match": 0,
-            "type": "remote",
+            "type": "local",
             "use_seq_region_synonyms": 1
         }
     ]

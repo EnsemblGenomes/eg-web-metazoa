@@ -2796,11 +2796,11 @@
                 "KB665485",
                 "KB667026"
             ],
-            "filename_template": "ftp://ftp.ensemblgenomes.org/pub/misc_data/metazoa/vcf/anopheles_quadriannulatus/VBP0000119_QC_filtered_quadriannulatus_TZ.vcf.gz",
+            "filename_template": "/vcf/anopheles_quadriannulatus/VBP0000119_QC_filtered_quadriannulatus_TZ.vcf.gz",
             "id": "VBP0000119_QC_filtered_quadriannulatus_TZ",
             "species": "anopheles_quadriannulatus",
             "strict_name_match": 0,
-            "type": "remote",
+            "type": "local",
             "use_seq_region_synonyms": 1
         }
     ]

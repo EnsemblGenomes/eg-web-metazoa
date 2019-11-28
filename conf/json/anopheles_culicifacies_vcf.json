@@ -16077,11 +16077,11 @@
                 "AXCM01023325",
                 "AXCM01013191"
             ],
-            "filename_template": "ftp://ftp.ensemblgenomes.org/pub/misc_data/metazoa/vcf/anopheles_culicifacies/VBP0000119_QC_filtered_culicifacies_A_form.vcf.gz",
+            "filename_template": "/vcf/anopheles_culicifacies/VBP0000119_QC_filtered_culicifacies_A_form.vcf.gz",
             "id": "VBP0000119_QC_filtered_culicifacies_A_form",
             "species": "anopheles_culicifacies",
             "strict_name_match": 0,
-            "type": "remote",
+            "type": "local",
             "use_seq_region_synonyms": 1
         },
         {
@@ -32139,11 +32139,11 @@
                 "AXCM01023325",
                 "AXCM01013191"
             ],
-            "filename_template": "ftp://ftp.ensemblgenomes.org/pub/misc_data/metazoa/vcf/anopheles_culicifacies/VBP0000119_QC_filtered_culicifacies_D_form.vcf.gz",
+            "filename_template": "/vcf/anopheles_culicifacies/VBP0000119_QC_filtered_culicifacies_D_form.vcf.gz",
             "id": "VBP0000119_QC_filtered_culicifacies_D_form",
             "species": "anopheles_culicifacies",
             "strict_name_match": 0,
-            "type": "remote",
+            "type": "local",
             "use_seq_region_synonyms": 1
         }
     ]

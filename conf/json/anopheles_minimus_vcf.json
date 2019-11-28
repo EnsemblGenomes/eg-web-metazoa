@@ -657,11 +657,11 @@
                 "KB663984",
                 "KB663621"
             ],
-            "filename_template": "ftp://ftp.ensemblgenomes.org/pub/misc_data/metazoa/vcf/anopheles_minimus/VBP0000119_QC_filtered_minimus_india.vcf.gz",
+            "filename_template": "/vcf/anopheles_minimus/VBP0000119_QC_filtered_minimus_india.vcf.gz",
             "id": "VBP0000119_QC_filtered_minimus_india",
             "species": "anopheles_minimus",
             "strict_name_match": 0,
-            "type": "remote",
+            "type": "local",
             "use_seq_region_synonyms": 1
         },
         {
@@ -1318,11 +1318,11 @@
                 "KB663984",
                 "KB663621"
             ],
-            "filename_template": "ftp://ftp.ensemblgenomes.org/pub/misc_data/metazoa/vcf/anopheles_minimus/VBP0000119_QC_filtered_minimus_thailand.vcf.gz",
+            "filename_template": "/vcf/anopheles_minimus/VBP0000119_QC_filtered_minimus_thailand.vcf.gz",
             "id": "VBP0000119_QC_filtered_minimus_thailand",
             "species": "anopheles_minimus",
             "strict_name_match": 0,
-            "type": "remote",
+            "type": "local",
             "use_seq_region_synonyms": 1
         }
     ]

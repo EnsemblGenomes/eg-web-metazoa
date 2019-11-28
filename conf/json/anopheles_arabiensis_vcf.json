@@ -1213,11 +1213,11 @@
                 "KB704299",
                 "KB704907"
             ],
-            "filename_template": "ftp://ftp.ensemblgenomes.org/pub/misc_data/metazoa/vcf/anopheles_arabiensis/VBP0000119_QC_filtered_arabiensis_BF.vcf.gz",
+            "filename_template": "/vcf/anopheles_arabiensis/VBP0000119_QC_filtered_arabiensis_BF.vcf.gz",
             "id": "VBP0000119_QC_filtered_arabiensis_BF",
             "species": "anopheles_arabiensis",
             "strict_name_match": 0,
-            "type": "remote",
+            "type": "local",
             "use_seq_region_synonyms": 1
         },
         {
@@ -2434,11 +2434,11 @@
                 "KB704299",
                 "KB704907"
             ],
-            "filename_template": "ftp://ftp.ensemblgenomes.org/pub/misc_data/metazoa/vcf/anopheles_arabiensis/VBP0000119_QC_filtered_arabiensis_CM.vcf.gz",
+            "filename_template": "/vcf/anopheles_arabiensis/VBP0000119_QC_filtered_arabiensis_CM.vcf.gz",
             "id": "VBP0000119_QC_filtered_arabiensis_CM",
             "species": "anopheles_arabiensis",
             "strict_name_match": 0,
-            "type": "remote",
+            "type": "local",
             "use_seq_region_synonyms": 1
         },
         {
@@ -3654,11 +3654,11 @@
                 "KB704299",
                 "KB704907"
             ],
-            "filename_template": "ftp://ftp.ensemblgenomes.org/pub/misc_data/metazoa/vcf/anopheles_arabiensis/VBP0000119_QC_filtered_arabiensis_TZ.vcf.gz",
+            "filename_template": "/vcf/anopheles_arabiensis/VBP0000119_QC_filtered_arabiensis_TZ.vcf.gz",
             "id": "VBP0000119_QC_filtered_arabiensis_TZ",
             "species": "anopheles_arabiensis",
             "strict_name_match": 0,
-            "type": "remote",
+            "type": "local",
             "use_seq_region_synonyms": 1
         }
     ]
