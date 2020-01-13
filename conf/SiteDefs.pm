@@ -36,6 +36,7 @@ sub update_conf {
     anopheles_albimanus
     anopheles_arabiensis
     anopheles_atroparvus
+    anopheles_christyi
     anopheles_coluzzii
     anopheles_coluzzii_ngousso
     anopheles_culicifacies
