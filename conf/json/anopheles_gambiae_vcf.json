@@ -13,7 +13,7 @@
                 "Y_unplaced",
                 "Mt"
             ],
-            "filename_template": "/vcf/anopheles_gambiae/VBP0000227_g3_snps_AgamP4.vcf.gz",
+            "filename_template": "/anopheles_gambiae/AgamP4/variation_genotype/VBP0000227_g3_snps_AgamP4.vcf.gz",
             "id": "VBP0000227_g3_snps_AgamP4",
             "species": "anopheles_gambiae",
             "strict_name_match": 0,
@@ -29,7 +29,7 @@
                 "3R",
                 "X"
             ],
-            "filename_template": "/vcf/anopheles_gambiae/VBP0000003_Agambiae_Broad_SNP_chip_Mali_M.vcf.gz",
+            "filename_template": "/anopheles_gambiae/AgamP4/variation_genotype/VBP0000003_Agambiae_Broad_SNP_chip_Mali_M.vcf.gz",
             "id": "VBP0000003_Agambiae_Broad_SNP_chip_Mali_M",
             "species": "anopheles_gambiae",
             "strict_name_match": 0,
@@ -41,7 +41,7 @@
             "chromosomes": [
                 "3L"
             ],
-            "filename_template": "/vcf/anopheles_gambiae/VBP0000007_TEP1.ssaha2.map.vcf.gz",
+            "filename_template": "/anopheles_gambiae/AgamP4/variation_genotype/VBP0000007_TEP1.ssaha2.map.vcf.gz",
             "id": "VBP0000007_TEP1.ssaha2.map",
             "species": "anopheles_gambiae",
             "strict_name_match": 0,
@@ -55,7 +55,7 @@
                 "2R",
                 "3L"
             ],
-            "filename_template": "/vcf/anopheles_gambiae/VBP0000124_Goundry_2016_arabiensis.vcf.gz",
+            "filename_template": "/anopheles_gambiae/AgamP4/variation_genotype/VBP0000124_Goundry_2016_arabiensis.vcf.gz",
             "id": "VBP0000124_Goundry_2016_arabiensis",
             "species": "anopheles_gambiae",
             "strict_name_match": 0,
@@ -71,7 +71,7 @@
                 "3R",
                 "X"
             ],
-            "filename_template": "/vcf/anopheles_gambiae/VBP0000003_Agambiae_Broad_SNP_chip_Mali_S.vcf.gz",
+            "filename_template": "/anopheles_gambiae/AgamP4/variation_genotype/VBP0000003_Agambiae_Broad_SNP_chip_Mali_S.vcf.gz",
             "id": "VBP0000003_Agambiae_Broad_SNP_chip_Mali_S",
             "species": "anopheles_gambiae",
             "strict_name_match": 0,
@@ -85,7 +85,7 @@
                 "2R",
                 "3L"
             ],
-            "filename_template": "/vcf/anopheles_gambiae/VBP0000124_Goundry_2016_coluzzii.vcf.gz",
+            "filename_template": "/anopheles_gambiae/AgamP4/variation_genotype/VBP0000124_Goundry_2016_coluzzii.vcf.gz",
             "id": "VBP0000124_Goundry_2016_coluzzii",
             "species": "anopheles_gambiae",
             "strict_name_match": 0,
@@ -99,7 +99,7 @@
                 "2R",
                 "3L"
             ],
-            "filename_template": "/vcf/anopheles_gambiae/VBP0000124_Goundry_2016_gambiae.vcf.gz",
+            "filename_template": "/anopheles_gambiae/AgamP4/variation_genotype/VBP0000124_Goundry_2016_gambiae.vcf.gz",
             "id": "VBP0000124_Goundry_2016_gambiae",
             "species": "anopheles_gambiae",
             "strict_name_match": 0,
@@ -115,7 +115,7 @@
                 "3R",
                 "X"
             ],
-            "filename_template": "/vcf/anopheles_gambiae/VBP0000003_Agambiae_Broad_SNP_chip_Bamako.vcf.gz",
+            "filename_template": "/anopheles_gambiae/AgamP4/variation_genotype/VBP0000003_Agambiae_Broad_SNP_chip_Bamako.vcf.gz",
             "id": "VBP0000003_Agambiae_Broad_SNP_chip_Bamako",
             "species": "anopheles_gambiae",
             "strict_name_match": 0,
@@ -133,7 +133,7 @@
                 "X",
                 "Y_unplaced"
             ],
-            "filename_template": "/vcf/anopheles_gambiae/VBP0000002_MR4_colony_G3.vcf.gz",
+            "filename_template": "/anopheles_gambiae/AgamP4/variation_genotype/VBP0000002_MR4_colony_G3.vcf.gz",
             "id": "VBP0000002_MR4_colony_G3",
             "species": "anopheles_gambiae",
             "strict_name_match": 0,
@@ -151,7 +151,7 @@
                 "X",
                 "Y_unplaced"
             ],
-            "filename_template": "/vcf/anopheles_gambiae/VBP0000002_MR4_colony_4ARR.vcf.gz",
+            "filename_template": "/anopheles_gambiae/AgamP4/variation_genotype/VBP0000002_MR4_colony_4ARR.vcf.gz",
             "id": "VBP0000002_MR4_colony_4ARR",
             "species": "anopheles_gambiae",
             "strict_name_match": 0,
@@ -169,7 +169,7 @@
                 "X",
                 "Y_unplaced"
             ],
-            "filename_template": "/vcf/anopheles_gambiae/VBP0000002_MR4_colony_akron.vcf.gz",
+            "filename_template": "/anopheles_gambiae/AgamP4/variation_genotype/VBP0000002_MR4_colony_akron.vcf.gz",
             "id": "VBP0000002_MR4_colony_akron",
             "species": "anopheles_gambiae",
             "strict_name_match": 0,
@@ -187,7 +187,7 @@
                 "X",
                 "Y_unplaced"
             ],
-            "filename_template": "/vcf/anopheles_gambiae/VBP0000002_MR4_colony_KISUMU.vcf.gz",
+            "filename_template": "/anopheles_gambiae/AgamP4/variation_genotype/VBP0000002_MR4_colony_KISUMU.vcf.gz",
             "id": "VBP0000002_MR4_colony_KISUMU",
             "species": "anopheles_gambiae",
             "strict_name_match": 0,
@@ -205,7 +205,7 @@
                 "X",
                 "Y_unplaced"
             ],
-            "filename_template": "/vcf/anopheles_gambiae/VBP0000002_MR4_colony_L3-5.vcf.gz",
+            "filename_template": "/anopheles_gambiae/AgamP4/variation_genotype/VBP0000002_MR4_colony_L3-5.vcf.gz",
             "id": "VBP0000002_MR4_colony_L3-5",
             "species": "anopheles_gambiae",
             "strict_name_match": 0,
@@ -221,7 +221,7 @@
                 "3L",
                 "X"
             ],
-            "filename_template": "/vcf/anopheles_gambiae/VBP0000004_377271_LSTM_GoldenGate_array_EVA_submission.fixed.vcf.gz",
+            "filename_template": "/anopheles_gambiae/AgamP4/variation_genotype/VBP0000004_377271_LSTM_GoldenGate_array_EVA_submission.fixed.vcf.gz",
             "id": "VBP0000004_377271_LSTM_GoldenGate_array_EVA_submission.fixed",
             "species": "anopheles_gambiae",
             "strict_name_match": 0,
@@ -237,7 +237,7 @@
                 "3L",
                 "X"
             ],
-            "filename_template": "/vcf/anopheles_gambiae/VBP0000004_7165_LSTM_GoldenGate_array_EVA_submission.fixed.vcf.gz",
+            "filename_template": "/anopheles_gambiae/AgamP4/variation_genotype/VBP0000004_7165_LSTM_GoldenGate_array_EVA_submission.fixed.vcf.gz",
             "id": "VBP0000004_7165_LSTM_GoldenGate_array_EVA_submission.fixed",
             "species": "anopheles_gambiae",
             "strict_name_match": 0,
@@ -251,7 +251,7 @@
                 "2R",
                 "3L"
             ],
-            "filename_template": "/vcf/anopheles_gambiae/VBP0000124_Goundry_2016_goundry.vcf.gz",
+            "filename_template": "/anopheles_gambiae/AgamP4/variation_genotype/VBP0000124_Goundry_2016_goundry.vcf.gz",
             "id": "VBP0000124_Goundry_2016_goundry",
             "species": "anopheles_gambiae",
             "strict_name_match": 0,
@@ -263,7 +263,7 @@
             "chromosomes": [
                 "2L"
             ],
-            "filename_template": "/vcf/anopheles_gambiae/VBP0000163_ag1000g.phase1.ar3.pass.2L.vcf.gz",
+            "filename_template": "/anopheles_gambiae/AgamP4/variation_genotype/VBP0000163_ag1000g.phase1.ar3.pass.2L.vcf.gz",
             "id": "VBP0000163_ag1000g.phase1.ar3.pass.2L",
             "species": "anopheles_gambiae",
             "strict_name_match": 0,
@@ -275,7 +275,7 @@
             "chromosomes": [
                 "2R"
             ],
-            "filename_template": "/vcf/anopheles_gambiae/VBP0000163_ag1000g.phase1.ar3.pass.2R.vcf.gz",
+            "filename_template": "/anopheles_gambiae/AgamP4/variation_genotype/VBP0000163_ag1000g.phase1.ar3.pass.2R.vcf.gz",
             "id": "VBP0000163_ag1000g.phase1.ar3.pass.2R",
             "species": "anopheles_gambiae",
             "strict_name_match": 0,
@@ -287,7 +287,7 @@
             "chromosomes": [
                 "3L"
             ],
-            "filename_template": "/vcf/anopheles_gambiae/VBP0000163_ag1000g.phase1.ar3.pass.3L.vcf.gz",
+            "filename_template": "/anopheles_gambiae/AgamP4/variation_genotype/VBP0000163_ag1000g.phase1.ar3.pass.3L.vcf.gz",
             "id": "VBP0000163_ag1000g.phase1.ar3.pass.3L",
             "species": "anopheles_gambiae",
             "strict_name_match": 0,
@@ -299,7 +299,7 @@
             "chromosomes": [
                 "3R"
             ],
-            "filename_template": "/vcf/anopheles_gambiae/VBP0000163_ag1000g.phase1.ar3.pass.3R.vcf.gz",
+            "filename_template": "/anopheles_gambiae/AgamP4/variation_genotype/VBP0000163_ag1000g.phase1.ar3.pass.3R.vcf.gz",
             "id": "VBP0000163_ag1000g.phase1.ar3.pass.3R",
             "species": "anopheles_gambiae",
             "strict_name_match": 0,
@@ -311,7 +311,7 @@
             "chromosomes": [
                 "X"
             ],
-            "filename_template": "/vcf/anopheles_gambiae/VBP0000163_ag1000g.phase1.ar3.pass.X.vcf.gz",
+            "filename_template": "/anopheles_gambiae/AgamP4/variation_genotype/VBP0000163_ag1000g.phase1.ar3.pass.X.vcf.gz",
             "id": "VBP0000163_ag1000g.phase1.ar3.pass.X",
             "species": "anopheles_gambiae",
             "strict_name_match": 0,
@@ -329,7 +329,7 @@
                 "UNKN",
                 "Mt"
             ],
-            "filename_template": "/vcf/anopheles_gambiae/VBP0000212_Agam_SNP_Uganda_2012_Illumina_RADseq_Malar_J_v17_p285.vcf.gz",
+            "filename_template": "/anopheles_gambiae/AgamP4/variation_genotype/VBP0000212_Agam_SNP_Uganda_2012_Illumina_RADseq_Malar_J_v17_p285.vcf.gz",
             "id": "VBP0000212_Agam_SNP_Uganda_2012_Illumina_RADseq_Malar_J_v17_p285",
             "species": "anopheles_gambiae",
             "strict_name_match": 0,

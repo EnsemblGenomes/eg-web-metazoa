@@ -10429,7 +10429,7 @@
                 "AXCK02030080",
                 "AXCK02026242"
             ],
-            "filename_template": "/vcf/anopheles_sinensis/VBP0000119_QC_filtered_sinensis_ylr001_2.vcf.gz",
+            "filename_template": "/anopheles_sinensis/AsinS2/variation_genotype/VBP0000119_QC_filtered_sinensis_ylr001_2.vcf.gz",
             "id": "VBP0000119_QC_filtered_sinensis_ylr001_2",
             "species": "anopheles_sinensis",
             "strict_name_match": 0,
@@ -20859,7 +20859,7 @@
                 "AXCK02030080",
                 "AXCK02026242"
             ],
-            "filename_template": "/vcf/anopheles_sinensis/VBP0000119_QC_filtered_sinensis_yls001_1.vcf.gz",
+            "filename_template": "/anopheles_sinensis/AsinS2/variation_genotype/VBP0000119_QC_filtered_sinensis_yls001_1.vcf.gz",
             "id": "VBP0000119_QC_filtered_sinensis_yls001_1",
             "species": "anopheles_sinensis",
             "strict_name_match": 0,

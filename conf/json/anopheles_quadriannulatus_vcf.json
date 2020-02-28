@@ -2796,7 +2796,7 @@
                 "KB665485",
                 "KB667026"
             ],
-            "filename_template": "/vcf/anopheles_quadriannulatus/VBP0000119_QC_filtered_quadriannulatus_TZ.vcf.gz",
+            "filename_template": "/anopheles_quadriannulatus/AquaS1/variation_genotype/VBP0000119_QC_filtered_quadriannulatus_TZ.vcf.gz",
             "id": "VBP0000119_QC_filtered_quadriannulatus_TZ",
             "species": "anopheles_quadriannulatus",
             "strict_name_match": 0,

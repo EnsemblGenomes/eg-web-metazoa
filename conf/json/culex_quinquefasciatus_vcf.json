@@ -238,7 +238,7 @@
                 "supercont3.2838",
                 "supercont3.3121"
             ],
-            "filename_template": "/vcf/culex_quinquefasciatus/VBP0000454_Kothera_2019_CpipJ2.vcf.gz",
+            "filename_template": "/culex_quinquefasciatus/CpipJ2/variation_genotype/VBP0000454_Kothera_2019_CpipJ2.vcf.gz",
             "id": "VBP0000454_Kothera_2019_CpipJ2",
             "species": "culex_quinquefasciatus",
             "strict_name_match": 0,
@@ -250,7 +250,7 @@
             "chromosomes": [
                 "supercont3.106"
             ],
-            "filename_template": "/vcf/culex_quinquefasciatus/VBP0000205_Martins_2017_Ace1_CpipJ2.vcf.gz",
+            "filename_template": "/culex_quinquefasciatus/CpipJ2/variation_genotype/VBP0000205_Martins_2017_Ace1_CpipJ2.vcf.gz",
             "id": "VBP0000205_Martins_2017_Ace1_CpipJ2",
             "species": "culex_quinquefasciatus",
             "strict_name_match": 0,
@@ -262,7 +262,7 @@
             "chromosomes": [
                 "supercont3.182"
             ],
-            "filename_template": "/vcf/culex_quinquefasciatus/VBP0000205_Martins_2017_Vgsc_CpipJ2.vcf.gz",
+            "filename_template": "/culex_quinquefasciatus/CpipJ2/variation_genotype/VBP0000205_Martins_2017_Vgsc_CpipJ2.vcf.gz",
             "id": "VBP0000205_Martins_2017_Vgsc_CpipJ2",
             "species": "culex_quinquefasciatus",
             "strict_name_match": 0,

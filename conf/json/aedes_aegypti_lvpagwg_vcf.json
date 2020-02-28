@@ -22,7 +22,7 @@
                 "NIGP01001929",
                 "NIGP01002166"
             ],
-            "filename_template": "/vcf/aedes_aegypti_lvpagwg/VBP0000125_Aedes_Faucon_2015_IR_2_AaegL5.vcf.gz",
+            "filename_template": "/aedes_aegypti/AaegL5/variation_genotype/VBP0000125_Aedes_Faucon_2015_IR_2_AaegL5.vcf.gz",
             "id": "VBP0000125_Aedes_Faucon_2015_IR_2_AaegL5",
             "species": "aedes_aegypti_lvpagwg",
             "strict_name_match": 0,
@@ -218,7 +218,7 @@
                 "NIGP01002231",
                 "NIGP01002260"
             ],
-            "filename_template": "/vcf/aedes_aegypti_lvpagwg/VBP0000269_Kotsakiozi_2018_AaegL5.vcf.gz",
+            "filename_template": "/aedes_aegypti/AaegL5/variation_genotype/VBP0000269_Kotsakiozi_2018_AaegL5.vcf.gz",
             "id": "VBP0000269_Kotsakiozi_2018_AaegL5",
             "species": "aedes_aegypti_lvpagwg",
             "strict_name_match": 0,
@@ -413,7 +413,7 @@
                 "NIGP01002231",
                 "NIGP01002260"
             ],
-            "filename_template": "/vcf/aedes_aegypti_lvpagwg/VBP0000177_Pless_S1_File_2_AaegL5.vcf.gz",
+            "filename_template": "/aedes_aegypti/AaegL5/variation_genotype/VBP0000177_Pless_S1_File_2_AaegL5.vcf.gz",
             "id": "VBP0000177_Pless_S1_File_2_AaegL5",
             "species": "aedes_aegypti_lvpagwg",
             "strict_name_match": 0,
@@ -605,7 +605,7 @@
                 "NIGP01002231",
                 "NIGP01002260"
             ],
-            "filename_template": "/vcf/aedes_aegypti_lvpagwg/VBP0000201_Gloria-Soria_2017_AaegL5.vcf.gz",
+            "filename_template": "/aedes_aegypti/AaegL5/variation_genotype/VBP0000201_Gloria-Soria_2017_AaegL5.vcf.gz",
             "id": "VBP0000201_Gloria-Soria_2017_AaegL5",
             "species": "aedes_aegypti_lvpagwg",
             "strict_name_match": 0,
@@ -801,7 +801,7 @@
                 "NIGP01002231",
                 "NIGP01002260"
             ],
-            "filename_template": "/vcf/aedes_aegypti_lvpagwg/VBP0000122_Aedes_Evans_2015_AxiomGT1_calls_2_AaegL5.vcf.gz",
+            "filename_template": "/aedes_aegypti/AaegL5/variation_genotype/VBP0000122_Aedes_Evans_2015_AxiomGT1_calls_2_AaegL5.vcf.gz",
             "id": "VBP0000122_Aedes_Evans_2015_AxiomGT1_calls_2_AaegL5",
             "species": "aedes_aegypti_lvpagwg",
             "strict_name_match": 0,
@@ -996,7 +996,7 @@
                 "NIGP01002231",
                 "NIGP01002260"
             ],
-            "filename_template": "/vcf/aedes_aegypti_lvpagwg/VBP0000193_Saarman-EvoApps-2017-SNPs_2_AaegL5.vcf.gz",
+            "filename_template": "/aedes_aegypti/AaegL5/variation_genotype/VBP0000193_Saarman-EvoApps-2017-SNPs_2_AaegL5.vcf.gz",
             "id": "VBP0000193_Saarman-EvoApps-2017-SNPs_2_AaegL5",
             "species": "aedes_aegypti_lvpagwg",
             "strict_name_match": 0,
@@ -1158,7 +1158,7 @@
                 "NIGP01002224",
                 "NIGP01002300"
             ],
-            "filename_template": "/vcf/aedes_aegypti_lvpagwg/VBP0000121_Aedes_JP-David_2014_IR_2_fix1_AaegL5.vcf.gz",
+            "filename_template": "/aedes_aegypti/AaegL5/variation_genotype/VBP0000121_Aedes_JP-David_2014_IR_2_fix1_AaegL5.vcf.gz",
             "id": "VBP0000121_Aedes_JP-David_2014_IR_2_fix1_AaegL5",
             "species": "aedes_aegypti_lvpagwg",
             "strict_name_match": 0,
@@ -1172,7 +1172,7 @@
                 "2",
                 "3"
             ],
-            "filename_template": "/vcf/aedes_aegypti_lvpagwg/VBP0000295_Kotsakiozi_2018_Africa_fix1_AaegL5.vcf.gz",
+            "filename_template": "/aedes_aegypti/AaegL5/variation_genotype/VBP0000295_Kotsakiozi_2018_Africa_fix1_AaegL5.vcf.gz",
             "id": "VBP0000295_Kotsakiozi_2018_Africa_fix1_AaegL5",
             "species": "aedes_aegypti_lvpagwg",
             "strict_name_match": 0,
@@ -1262,7 +1262,7 @@
                 "NIGP01002224",
                 "NIGP01002300"
             ],
-            "filename_template": "/vcf/aedes_aegypti_lvpagwg/VBP0000015_Aedes_Bonizzono_2013_insecticide_resistance_2_fix1_AaegL5.vcf.gz",
+            "filename_template": "/aedes_aegypti/AaegL5/variation_genotype/VBP0000015_Aedes_Bonizzono_2013_insecticide_resistance_2_fix1_AaegL5.vcf.gz",
             "id": "VBP0000015_Aedes_Bonizzono_2013_insecticide_resistance_2_fix1_AaegL5",
             "species": "aedes_aegypti_lvpagwg",
             "strict_name_match": 0,
