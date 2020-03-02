@@ -16077,7 +16077,7 @@
                 "AXCM01023325",
                 "AXCM01013191"
             ],
-            "filename_template": "/vcf/anopheles_culicifacies/VBP0000119_QC_filtered_culicifacies_A_form.vcf.gz",
+            "filename_template": "/anopheles_culicifacies/AculA1/variation_genotype/VBP0000119_QC_filtered_culicifacies_A_form.vcf.gz",
             "id": "VBP0000119_QC_filtered_culicifacies_A_form",
             "species": "anopheles_culicifacies",
             "strict_name_match": 0,
@@ -32139,7 +32139,7 @@
                 "AXCM01023325",
                 "AXCM01013191"
             ],
-            "filename_template": "/vcf/anopheles_culicifacies/VBP0000119_QC_filtered_culicifacies_D_form.vcf.gz",
+            "filename_template": "/anopheles_culicifacies/AculA1/variation_genotype/VBP0000119_QC_filtered_culicifacies_D_form.vcf.gz",
             "id": "VBP0000119_QC_filtered_culicifacies_D_form",
             "species": "anopheles_culicifacies",
             "strict_name_match": 0,

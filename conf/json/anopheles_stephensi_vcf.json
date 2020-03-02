@@ -1073,7 +1073,7 @@
                 "KB665296",
                 "KB664690"
             ],
-            "filename_template": "/vcf/anopheles_stephensi/VBP0000119_QC_filtered_stephensi_chb.vcf.gz",
+            "filename_template": "/anopheles_stephensi/AsteS1/variation_genotype/VBP0000119_QC_filtered_stephensi_chb.vcf.gz",
             "id": "VBP0000119_QC_filtered_stephensi_chb",
             "species": "anopheles_stephensi",
             "strict_name_match": 0,
@@ -2159,7 +2159,7 @@
                 "KB665296",
                 "KB664690"
             ],
-            "filename_template": "/vcf/anopheles_stephensi/VBP0000119_QC_filtered_stephensi_ban.vcf.gz",
+            "filename_template": "/anopheles_stephensi/AsteS1/variation_genotype/VBP0000119_QC_filtered_stephensi_ban.vcf.gz",
             "id": "VBP0000119_QC_filtered_stephensi_ban",
             "species": "anopheles_stephensi",
             "strict_name_match": 0,
@@ -3238,7 +3238,7 @@
                 "KB665296",
                 "KB664690"
             ],
-            "filename_template": "/vcf/anopheles_stephensi/VBP0000119_QC_filtered_stephensi_kaz.vcf.gz",
+            "filename_template": "/anopheles_stephensi/AsteS1/variation_genotype/VBP0000119_QC_filtered_stephensi_kaz.vcf.gz",
             "id": "VBP0000119_QC_filtered_stephensi_kaz",
             "species": "anopheles_stephensi",
             "strict_name_match": 0,
@@ -4315,7 +4315,7 @@
                 "KB665296",
                 "KB664690"
             ],
-            "filename_template": "/vcf/anopheles_stephensi/VBP0000119_QC_filtered_stephensi_irn.vcf.gz",
+            "filename_template": "/anopheles_stephensi/AsteS1/variation_genotype/VBP0000119_QC_filtered_stephensi_irn.vcf.gz",
             "id": "VBP0000119_QC_filtered_stephensi_irn",
             "species": "anopheles_stephensi",
             "strict_name_match": 0,
@@ -5388,7 +5388,7 @@
                 "KB665296",
                 "KB664690"
             ],
-            "filename_template": "/vcf/anopheles_stephensi/VBP0000119_QC_filtered_stephensi_wban.vcf.gz",
+            "filename_template": "/anopheles_stephensi/AsteS1/variation_genotype/VBP0000119_QC_filtered_stephensi_wban.vcf.gz",
             "id": "VBP0000119_QC_filtered_stephensi_wban",
             "species": "anopheles_stephensi",
             "strict_name_match": 0,
