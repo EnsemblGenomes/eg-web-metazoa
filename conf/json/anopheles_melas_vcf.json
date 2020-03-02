@@ -20083,7 +20083,7 @@
                 "AXCO02023060",
                 "AXCO02027086"
             ],
-            "filename_template": "/vcf/anopheles_melas/VBP0000119_QC_filtered_melas_ballingho_the_gambia.0.variants.vcf.gz",
+            "filename_template": "/anopheles_melas/AmelC2/variation_genotype/VBP0000119_QC_filtered_melas_ballingho_the_gambia.0.variants.vcf.gz",
             "id": "VBP0000119_QC_filtered_melas_ballingho_the_gambia.0.variants",
             "species": "anopheles_melas",
             "strict_name_match": 0,
@@ -40233,7 +40233,7 @@
                 "AXCO02023060",
                 "AXCO02027086"
             ],
-            "filename_template": "/vcf/anopheles_melas/VBP0000119_QC_filtered_melas_cameroon.vcf.gz",
+            "filename_template": "/anopheles_melas/AmelC2/variation_genotype/VBP0000119_QC_filtered_melas_cameroon.vcf.gz",
             "id": "VBP0000119_QC_filtered_melas_cameroon",
             "species": "anopheles_melas",
             "strict_name_match": 0,
@@ -60104,7 +60104,7 @@
                 "AXCO02023060",
                 "AXCO02027086"
             ],
-            "filename_template": "/vcf/anopheles_melas/VBP0000119_QC_filtered_melas_ipono_cameroon.0.variants.vcf.gz",
+            "filename_template": "/anopheles_melas/AmelC2/variation_genotype/VBP0000119_QC_filtered_melas_ipono_cameroon.0.variants.vcf.gz",
             "id": "VBP0000119_QC_filtered_melas_ipono_cameroon.0.variants",
             "species": "anopheles_melas",
             "strict_name_match": 0,
@@ -80178,7 +80178,7 @@
                 "AXCO02023060",
                 "AXCO02027086"
             ],
-            "filename_template": "/vcf/anopheles_melas/VBP0000119_QC_filtered_luba_bioko_island_equatorial_guinea.0.variants.vcf.gz",
+            "filename_template": "/anopheles_melas/AmelC2/variation_genotype/VBP0000119_QC_filtered_luba_bioko_island_equatorial_guinea.0.variants.vcf.gz",
             "id": "VBP0000119_QC_filtered_luba_bioko_island_equatorial_guinea.0.variants",
             "species": "anopheles_melas",
             "strict_name_match": 0,

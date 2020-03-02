@@ -11535,7 +11535,7 @@
                 "Scaffold11538",
                 "Scaffold11539"
             ],
-            "filename_template": "/vcf/lutzomyia_longipalpis/VBP0000505_MAM_2019_LlonJ1.vcf.gz",
+            "filename_template": "/lutzomyia_longipalpis/LlonJ1/variation_genotype/VBP0000505_MAM_2019_LlonJ1.vcf.gz",
             "id": "VBP0000505_MAM_2019_LlonJ1",
             "species": "lutzomyia_longipalpis",
             "strict_name_match": 0,

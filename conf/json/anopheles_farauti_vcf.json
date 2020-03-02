@@ -302,7 +302,7 @@
                 "AXCN02002859",
                 "KI915043"
             ],
-            "filename_template": "/vcf/anopheles_farauti/VBP0000119_QC_filtered_farauti_madang.vcf.gz",
+            "filename_template": "/anopheles_farauti/AfarF2/variation_genotype/VBP0000119_QC_filtered_farauti_madang.vcf.gz",
             "id": "VBP0000119_QC_filtered_farauti_madang",
             "species": "anopheles_farauti",
             "strict_name_match": 0,
@@ -607,7 +607,7 @@
                 "AXCN02002859",
                 "KI915043"
             ],
-            "filename_template": "/vcf/anopheles_farauti/VBP0000119_QC_filtered_farauti_tanna.vcf.gz",
+            "filename_template": "/anopheles_farauti/AfarF2/variation_genotype/VBP0000119_QC_filtered_farauti_tanna.vcf.gz",
             "id": "VBP0000119_QC_filtered_farauti_tanna",
             "species": "anopheles_farauti",
             "strict_name_match": 0,
@@ -913,7 +913,7 @@
                 "AXCN02002859",
                 "KI915043"
             ],
-            "filename_template": "/vcf/anopheles_farauti/VBP0000119_QC_filtered_farauti_queensland.vcf.gz",
+            "filename_template": "/anopheles_farauti/AfarF2/variation_genotype/VBP0000119_QC_filtered_farauti_queensland.vcf.gz",
             "id": "VBP0000119_QC_filtered_farauti_queensland",
             "species": "anopheles_farauti",
             "strict_name_match": 0,
@@ -1219,7 +1219,7 @@
                 "AXCN02002859",
                 "KI915043"
             ],
-            "filename_template": "/vcf/anopheles_farauti/VBP0000119_QC_filtered_farauti_haleta.vcf.gz",
+            "filename_template": "/anopheles_farauti/AfarF2/variation_genotype/VBP0000119_QC_filtered_farauti_haleta.vcf.gz",
             "id": "VBP0000119_QC_filtered_farauti_haleta",
             "species": "anopheles_farauti",
             "strict_name_match": 0,

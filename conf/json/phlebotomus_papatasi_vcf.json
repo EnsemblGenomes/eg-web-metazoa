@@ -70802,7 +70802,7 @@
                 "Scaffold122240",
                 "Scaffold122249"
             ],
-            "filename_template": "/vcf/phlebotomus_papatasi/VBP0000504_MAM_2019_PpapI1.vcf.gz",
+            "filename_template": "/phlebotomus_papatasi/PpapI1/variation_genotype/VBP0000504_MAM_2019_PpapI1.vcf.gz",
             "id": "VBP0000504_MAM_2019_PpapI1",
             "species": "phlebotomus_papatasi",
             "strict_name_match": 0,

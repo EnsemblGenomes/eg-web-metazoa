@@ -8,7 +8,7 @@
                 "CM012071.1",
                 "CM012072.1"
             ],
-            "filename_template": "/vcf/anopheles_funestus/VBP0000119_QC_filtered_funestus_folonzo_AfunF3.vcf.gz",
+            "filename_template": "/anopheles_funestus/AfunF3/variation_genotype/VBP0000119_QC_filtered_funestus_folonzo_AfunF3.vcf.gz",
             "id": "VBP0000119_QC_filtered_funestus_folonzo_AfunF3",
             "species": "anopheles_funestus",
             "strict_name_match": 0,
@@ -22,7 +22,7 @@
                 "CM012071.1",
                 "CM012072.1"
             ],
-            "filename_template": "/vcf/anopheles_funestus/VBP0000119_QC_filtered_funestus_kiribina_AfunF3.vcf.gz",
+            "filename_template": "/anopheles_funestus/AfunF3/variation_genotype/VBP0000119_QC_filtered_funestus_kiribina_AfunF3.vcf.gz",
             "id": "VBP0000119_QC_filtered_funestus_kiribina_AfunF3",
             "species": "anopheles_funestus",
             "strict_name_match": 0,
