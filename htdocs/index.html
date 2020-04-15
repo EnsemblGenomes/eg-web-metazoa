@@ -2,22 +2,41 @@
 <head>
 <title>[[SPECIESDEFS::SITE_NAME]]</title>           
 </head>
-<body><div class="column-wrapper">
-<div class="column-two">
-<div class="column-padding no-left-margin">
-<div class="tinted-box no-top-margin">
-[[SCRIPT::EnsEMBL::Web::Document::HTML::Bioschema]]
-[[SCRIPT::EnsEMBL::Web::Document::HTML::HomeSearch]]
-</div>
-<div class="plain-box">
-<div class="js_panel"><input class="panel_type" type="hidden" value="SpeciesList" />
-[[SCRIPT::EnsEMBL::Web::Document::HTML::GenomeList]]
+<body>
+
+<div class="column-wrapper">
+  <div class="column-two">
+    <div class="column-padding no-left-margin">
+      <div class="tinted-box no-top-margin">
+        [[SCRIPT::EnsEMBL::Web::Document::HTML::Bioschema]]
+        [[SCRIPT::EnsEMBL::Web::Document::HTML::HomeSearch]]
+      </div>
+      <div class="plain-box">
+        <div class="js_panel">
+          <input class="panel_type" type="hidden" value="SpeciesList" />
+          [[SCRIPT::EnsEMBL::Web::Document::HTML::GenomeList]]
+        </div>
+      </div>
+    </div>
   </div>
-</div>
-<p>[[INCLUDE::/ssi/left_1.inc]] [[INCLUDE::/ssi/left_2.inc]]</p></div>
-</div>
-<div class="column-two">
-<div class="column-padding no-right-margin">[[INCLUDE::/ssi/right_2.inc]] [[INCLUDE::/ssi/outline.inc]] [[INCLUDE::/ssi/right_1.inc]] [[INCLUDE::/ssi/right_3.inc]] [[INCLUDE::/ssi/right_4.inc]]</div>
-</div>
+  <div class="column-two">
+    <div class="column-padding no-right-margin">
+      <div class="plain-box"><h2>What's New in Release [[SITEDEFS::SITE_RELEASE_VERSION]]</h2>
+        <div class="info-box embedded-box float-right">
+          [[INCLUDE::/ssi/did_you_know.md]]
+        </div>
+        [[INCLUDE::/ssi/whatsnew.md]]
+      </div>
+      <div class="plain-box">
+        [[INCLUDE::/ssi/right_2.md]]
+      </div>
+      <div class="plain-box">
+        [[INCLUDE::/ssi/right_3.md]]
+      </div>
+      <div class="plain-box">
+        [[INCLUDE::/ssi/right_4.md]]
+      </div>
+    </div>
+  </div>
 </div>
 </body></html>
