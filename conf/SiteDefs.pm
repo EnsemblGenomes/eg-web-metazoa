@@ -139,6 +139,7 @@ sub update_conf {
     tribolium_castaneum
     trichinella_spiralis
     trichoplax_adhaerens
+    tigriopus_californicus_gca007210705
     zootermopsis_nevadensis
   )];
 
