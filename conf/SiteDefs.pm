@@ -72,6 +72,7 @@ sub update_conf {
     caenorhabditis_remanei
     capitella_teleta
     cimex_lectularius
+    clytia_hemisphaerica_gca902728285
     crassostrea_gigas
     culex_quinquefasciatus
     culicoides_sonorensis
@@ -140,6 +141,7 @@ sub update_conf {
     trichinella_spiralis
     trichoplax_adhaerens
     tigriopus_californicus_gca007210705
+    varroa_destructor_gca002443255
     zootermopsis_nevadensis
   )];
 
