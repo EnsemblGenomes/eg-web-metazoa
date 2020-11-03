@@ -28,6 +28,7 @@ sub update_conf {
   $SiteDefs::ENSEMBL_HMMER_ENABLED     = 1;
 
   $SiteDefs::PRODUCTION_NAMES = [sort qw(
+    actinia_equina_gca011057435
     acyrthosiphon_pisum
     adineta_vaga
     aedes_aegypti_lvpagwg
@@ -59,6 +60,12 @@ sub update_conf {
     apis_mellifera
     atta_cephalotes
     belgica_antarctica
+    bemisia_tabaci_asiaii5
+    bemisia_tabaci_ssa1nig
+    bemisia_tabaci_ssa1ug
+    bemisia_tabaci_ssa2nig
+    bemisia_tabaci_ssa3nig
+    bemisia_tabaci_sweetpotug
     biomphalaria_glabrata
     bombus_impatiens
     bombus_terrestris
@@ -137,6 +144,7 @@ sub update_conf {
     teleopsis_dalmanni
     tetranychus_urticae
     thelohanellus_kitauei
+    trialeurodes_vaporariorum_gca011764245
     tribolium_castaneum
     trichinella_spiralis
     trichoplax_adhaerens
