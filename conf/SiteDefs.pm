@@ -163,7 +163,7 @@ sub update_conf {
   $SiteDefs::SUBDOMAIN_DIR    = 'metazoa';
   $SiteDefs::SITE_NAME        = 'Ensembl Metazoa';
   $SiteDefs::ENSEMBL_SITETYPE = 'Ensembl Metazoa';
-  $SiteDefs::SITE_FTP         = 'ftp://ftp.ensemblgenomes.org/pub/metazoa';
+  $SiteDefs::SITE_FTP         = 'http://ftp.ensemblgenomes.org/pub/metazoa';
   push @SiteDefs::ENSEMBL_HTDOCS_DIRS,  $SiteDefs::ENSEMBL_SERVERROOT.'/../biomarts/metazoa/biomart-perl/htdocs';
   
   $SiteDefs::ENA_COLLECTION_ID = 223;
