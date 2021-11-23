@@ -58,6 +58,7 @@ sub update_conf {
     anopheles_stephensi_indian
     anoplophora_glabripennis
     apis_mellifera
+    ascaris_suum
     atta_cephalotes
     belgica_antarctica
     bemisia_tabaci_asiaii5
@@ -82,11 +83,13 @@ sub update_conf {
     clytia_hemisphaerica_gca902728285
     crassostrea_gigas
     culex_quinquefasciatus
+    culex_quinquefasciatus_gca015732765v1
     culicoides_sonorensis
     danaus_plexippus
     daphnia_magna
     daphnia_pulex
     dendroctonus_ponderosae
+    dermacentor_silvarum_gca013339745v1
     dinothrombium_tinctorium
     drosophila_ananassae
     drosophila_erecta
@@ -107,10 +110,15 @@ sub update_conf {
     glossina_morsitans
     glossina_pallidipes
     glossina_palpalis
+    haemaphysalis_longicornis_gca013339765v1
     heliconius_melpomene
     helobdella_robusta
     hofstenia_miamia
+    hyalomma_asiaticum_gca013339685v1
+    hymenolepis_microstoma
+    ixodes_persulcatus_gca013358835v1
     ixodes_scapularis
+    ixodes_scapularis_gca016920785v2
     ixodes_scapularis_ise6
     lepeophtheirus_salmonis
     leptotrombidium_deliense
@@ -125,6 +133,7 @@ sub update_conf {
     mnemiopsis_leidyi
     musca_domestica
     nasonia_vitripennis
+    necator_americanus
     nematostella_vectensis
     octopus_bimaculoides
     onchocerca_volvulus
@@ -132,6 +141,8 @@ sub update_conf {
     pediculus_humanus
     phlebotomus_papatasi
     pristionchus_pacificus
+    rhipicephalus_microplus_gca013339725v1
+    rhipicephalus_sanguineus_gca013339695v1
     rhodnius_prolixus
     sarcoptes_scabiei
     schistosoma_mansoni
@@ -148,6 +159,7 @@ sub update_conf {
     tribolium_castaneum
     trichinella_spiralis
     trichoplax_adhaerens
+    trichuris_muris
     tigriopus_californicus_gca007210705
     varroa_destructor_gca002443255
     zootermopsis_nevadensis
