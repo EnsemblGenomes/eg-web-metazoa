@@ -64,6 +64,7 @@ sub update_conf {
     apis_mellifera
     aplysia_californica_gca000002075v2
     ascaris_suum
+    athalia_rosae_gca000344095v2
     atta_cephalotes   
     bactrocera_dorsalis_gca000789215v2  
     bactrocera_latifrons_gca001853355v1
