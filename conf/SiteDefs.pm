@@ -79,7 +79,8 @@ sub update_conf {
     bemisia_tabaci_ssa1nig
     bemisia_tabaci_ssa1ug   
     bemisia_tabaci_ssa2nig  
-    bemisia_tabaci_ssa3nig    
+    bemisia_tabaci_ssa3nig  
+    bemisia_tabaci_uganda1
     biomphalaria_glabrata  
     bombus_impatiens   
     bombus_terrestris   
