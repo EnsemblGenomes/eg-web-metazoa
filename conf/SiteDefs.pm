@@ -79,8 +79,7 @@ sub update_conf {
     bemisia_tabaci_ssa1nig
     bemisia_tabaci_ssa1ug   
     bemisia_tabaci_ssa2nig  
-    bemisia_tabaci_ssa3nig   
-    bemisia_tabaci_sweetpotug   
+    bemisia_tabaci_ssa3nig    
     biomphalaria_glabrata  
     bombus_impatiens   
     bombus_terrestris   
@@ -148,6 +147,7 @@ sub update_conf {
     hyalomma_asiaticum_gca013339685v1
     hydra_vulgaris_gca000004095v1   
     hymenolepis_microstoma  
+    hypsibius_exemplaris_gca002082055v1
     ixodes_persulcatus_gca013358835v1
     ixodes_scapularis   
     ixodes_scapularis_gca016920785v2  
