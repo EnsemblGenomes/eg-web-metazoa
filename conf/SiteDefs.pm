@@ -28,12 +28,16 @@ sub update_conf {
   $SiteDefs::ENSEMBL_HMMER_ENABLED     = 1;
 
   $SiteDefs::PRODUCTION_NAMES = [sort qw(
-    actinia_equina_gca011057435   
+    acanthaster_planci_gca001949145v1
+    acropora_millepora_gca013753865v1
+    actinia_equina_gca011057435
+    actinia_tenebrosa_gca009602425v1   
     acyrthosiphon_pisum   
     adineta_vaga   
     aedes_aegypti_lvpagwg  
     aedes_albopictus   
-    agrilus_planipennis_gca000699045v2  
+    agrilus_planipennis_gca000699045v2
+    amphibalanus_amphitrite_gca019059575v1  
     amphimedon_queenslandica   
     anneissia_japonica_gca011630105v1   
     anopheles_albimanus  
@@ -64,6 +68,7 @@ sub update_conf {
     apis_mellifera
     aplysia_californica_gca000002075v2
     ascaris_suum
+    asterias_rubens_gca902459465v3
     athalia_rosae_gca000344095v2
     atta_cephalotes   
     bactrocera_dorsalis_gca000789215v2  
@@ -74,8 +79,8 @@ sub update_conf {
     bemisia_tabaci_ssa1nig
     bemisia_tabaci_ssa1ug   
     bemisia_tabaci_ssa2nig  
-    bemisia_tabaci_ssa3nig   
-    bemisia_tabaci_sweetpotug   
+    bemisia_tabaci_ssa3nig  
+    bemisia_tabaci_uganda1
     biomphalaria_glabrata  
     bombus_impatiens   
     bombus_terrestris   
@@ -101,12 +106,14 @@ sub update_conf {
     culicoides_sonorensis
     danaus_plexippus
     daphnia_magna   
+    daphnia_magna_gca020631705v2
     daphnia_pulex   
     dendroctonus_ponderosae_gca000355655v1   
     dendronephthya_gigantea_gca004324835v1  
     dermacentor_silvarum_gca013339745v1
     dermatophagoides_pteronyssinus_gca001901225v2   
-    diabrotica_virgifera_gca003013835v2   
+    diabrotica_virgifera_gca003013835v2
+    dimorphilus_gyrociliatus_gca904063045v1   
     dinothrombium_tinctorium   
     diuraphis_noxia_gca001186385v1   
     drosophila_ananassae   
@@ -121,6 +128,8 @@ sub update_conf {
     drosophila_virilis  
     drosophila_willistoni
     drosophila_yakuba   
+    eurytemora_affinis_gca000591075v2
+    exaiptasia_diaphana_gca001417965v1
     folsomia_candida  
     gigantopelta_aegis_gca016097555v1
     glossina_austeni
@@ -134,14 +143,18 @@ sub update_conf {
     helobdella_robusta  
     hermetia_illucens_gca905115235v1   
     hofstenia_miamia  
+    homarus_americanus_gca018991925v1
+    hyalella_azteca_gca000764305v2
     hyalomma_asiaticum_gca013339685v1
     hydra_vulgaris_gca000004095v1   
     hymenolepis_microstoma  
+    hypsibius_exemplaris_gca002082055v1
     ixodes_persulcatus_gca013358835v1
     ixodes_scapularis   
     ixodes_scapularis_gca016920785v2  
     leptinotarsa_decemlineata_gca000500325v2   
-    limulus_polyphemus_gca000517525v1   
+    limulus_polyphemus_gca000517525v1
+    lingula_anatina_gca001039355v2   
     lottia_gigantea  
     lucilia_cuprina
     lutzomyia_longipalpis   
@@ -149,29 +162,40 @@ sub update_conf {
     mayetiola_destructor   
     megaselia_scalaris  
     melitaea_cinxia
-    metaseiulus_occidentalis_gca000255335v1   
+    mercenaria_mercenaria_gca014805675v2
+    metaseiulus_occidentalis_gca000255335v1
+    mizuhopecten_yessoensis_gca002113885v2   
     mnemiopsis_leidyi   
     monomorium_pharaonis_gca013373865v2  
     musca_domestica
     nasonia_vitripennis   
     necator_americanus  
     nematostella_vectensis   
-    octopus_bimaculoides  
+    octopus_bimaculoides
+    octopus_bimaculoides_gca001194135v1
+    octopus_sinensis_gca006345805v1  
     onchocerca_volvulus
     onthophagus_taurus_gca000648695v2   
     ooceraea_biroi_gca003672135v1   
     orbicella_faveolata_gca002042975v1   
     orchesella_cincta  
-    orussus_abietinus_gca000612105v2   
-    parasteatoda_tepidariorum_gca000365465v3  
+    orussus_abietinus_gca000612105v2
+    owenia_fusiformis_gca903813345v1   
+    parasteatoda_tepidariorum_gca000365465v3
+    patiria_miniata_gca015706575v1  
     pediculus_humanus
+    penaeus_japonicus_gca017312705v1
     penaeus_monodon_gca015228065v1
+    penaeus_vannamei_gca003789085v1
     phlebotomus_papatasi
     phlebotomus_perniciosus_gca918844115
-    pocillopora_damicornis_gca003704095v1   
-    pomacea_canaliculata_gca003073045v1   
+    pocillopora_damicornis_gca003704095v1
+    pollicipes_pollicipes_gca011947565v2   
+    pomacea_canaliculata_gca003073045v1
+    portunus_trituberculatus_gca017591435v1   
     priapulus_caudatus_gca000485595v2  
     pristionchus_pacificus   
+    procambarus_clarkii_gca020424385v2
     rhagoletis_pomonella_gca013731165v1   
     rhipicephalus_microplus_gca013339725v1   
     rhipicephalus_sanguineus_gca013339695v1  
