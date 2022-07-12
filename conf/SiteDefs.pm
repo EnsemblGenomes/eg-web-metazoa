@@ -139,9 +139,14 @@ sub update_conf {
     hymenolepis_microstoma  
     ixodes_persulcatus_gca013358835v1
     ixodes_scapularis   
-    ixodes_scapularis_gca016920785v2  
-    leptinotarsa_decemlineata_gca000500325v2   
-    limulus_polyphemus_gca000517525v1   
+    ixodes_scapularis_gca016920785v2
+    ixodes_scapularis_ise6
+    leptinotarsa_decemlineata_gca000500325v2
+    lepeophtheirus_salmonis
+    leptotrombidium_deliense
+    limulus_polyphemus_gca000517525v1
+    lingula_anatina
+    loa_loa
     lottia_gigantea  
     lucilia_cuprina
     lutzomyia_longipalpis   
