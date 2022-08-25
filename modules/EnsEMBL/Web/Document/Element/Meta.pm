@@ -21,7 +21,6 @@ package EnsEMBL::Web::Document::Element::Meta;
 sub init {
   my $self = shift;
   $self->add('description', 'Ensembl Metazoa is a genome-centric portal for metazoan species of scientific interest');
-  $self->add('keywords', 'Ensembl, Ensembl Genomes, genome, genome browser, comparative genomics, variation, SNPs, EST, mRNA, rna-Seq, orthologs, paralogs, synteny, assembly, genes, transcripts, translations, proteins, mosquito, Anopheles, tick, fruitfly, worm, Drosophila, Caenorhabditis, C.elegans, invertebrate');
 }
 
 1;
