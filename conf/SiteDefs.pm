@@ -42,7 +42,6 @@ sub update_conf {
     anneissia_japonica_gca011630105v1   
     anopheles_albimanus  
     anopheles_arabiensis   
-    anopheles_atroparvus  
     anopheles_atroparvus_gca914969975
     anopheles_christyi
     anopheles_coluzzii
@@ -105,7 +104,6 @@ sub update_conf {
     culex_quinquefasciatus_gca015732765v1  
     culicoides_sonorensis
     danaus_plexippus
-    daphnia_magna   
     daphnia_magna_gca020631705v2
     daphnia_pulex   
     dendroctonus_ponderosae_gca000355655v1   
