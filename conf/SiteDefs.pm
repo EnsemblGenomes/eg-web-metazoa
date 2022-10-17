@@ -29,6 +29,7 @@ sub update_conf {
 
   $SiteDefs::PRODUCTION_NAMES = [sort qw(
     acanthaster_planci_gca001949145v1
+    acromyrmex_echinatior_gca000204515v1rs
     acropora_millepora_gca013753865v1
     actinia_equina_gca011057435
     actinia_tenebrosa_gca009602425v1   
@@ -64,6 +65,8 @@ sub update_conf {
     anopheles_stephensi_indian   
     anoplophora_glabripennis  
     aphidius_gifuensis_gca014905175v1
+    apis_dorsata_gca000469605v1rs
+    apis_florea_gca000184785v2rs
     apis_mellifera
     aplysia_californica_gca000002075v2
     ascaris_suum
@@ -83,6 +86,7 @@ sub update_conf {
     biomphalaria_glabrata  
     bombus_impatiens   
     bombus_terrestris   
+    bombyx_mandarina_gca003987935v1rs
     bombyx_mori  
     branchiostoma_lanceolatum
     brugia_malayi   
@@ -91,6 +95,7 @@ sub update_conf {
     caenorhabditis_elegans   
     caenorhabditis_japonica   
     caenorhabditis_remanei   
+    camponotus_floridanus_gca003227725v1rs
     capitella_teleta   
     centruroides_sculpturatus_gca000671375v2   
     ceratitis_capitata_gca000347755v4  
@@ -106,6 +111,8 @@ sub update_conf {
     danaus_plexippus
     daphnia_magna_gca020631705v2
     daphnia_pulex   
+    daphnia_pulex_gca021134715v1rs
+    daphnia_pulicaria_gca021234035v2rs
     dendroctonus_ponderosae_gca000355655v1   
     dendronephthya_gigantea_gca004324835v1  
     dermacentor_silvarum_gca013339745v1
@@ -125,10 +132,14 @@ sub update_conf {
     drosophila_simulans   
     drosophila_virilis  
     drosophila_willistoni
-    drosophila_yakuba   
+    drosophila_yakuba
+    dufourea_novaeangliae_gca001272555v1rs
+    echinococcus_granulosus_gca000524195v1rs   
+    eufriesea_mexicana_gca001483705v1rs
     eurytemora_affinis_gca000591075v2
     exaiptasia_diaphana_gca001417965v1
     folsomia_candida  
+    galendromus_occidentalis_gca000255335v2rs
     gigantopelta_aegis_gca016097555v1
     glossina_austeni
     glossina_brevipalpis
@@ -136,7 +147,11 @@ sub update_conf {
     glossina_morsitans  
     glossina_pallidipes
     glossina_palpalis   
-    haemaphysalis_longicornis_gca013339765v1  
+    habropoda_laboriosa_gca001263275v1rs
+    haemaphysalis_longicornis_gca013339765v1
+    haliotis_rubra_gca003918875v1rs 
+    haliotis_rufescens_gca023055435v1rs 
+    harpegnathos_saltator_gca003227715v2rs
     heliconius_melpomene   
     helobdella_robusta  
     hermetia_illucens_gca905115235v1   
@@ -145,6 +160,7 @@ sub update_conf {
     hyalella_azteca_gca000764305v2
     hyalomma_asiaticum_gca013339685v1
     hydra_vulgaris_gca000004095v1   
+    hydra_vulgaris_gca022113875v1rs
     hymenolepis_microstoma  
     hypsibius_exemplaris_gca002082055v1
     ixodes_persulcatus_gca013358835v1
@@ -152,9 +168,11 @@ sub update_conf {
     ixodes_scapularis_ise6  
     ixodes_scapularis_gca016920785v2  
     lepeophtheirus_salmonis
+    lepeophtheirus_salmonis_gca016086655v3r
     leptinotarsa_decemlineata_gca000500325v2   
     leptotrombidium_deliense
     limulus_polyphemus_gca000517525v1
+    linepithema_humile_gca000217595v1rs
     lingula_anatina
     lingula_anatina_gca001039355v2 
     loa_loa  
@@ -163,10 +181,10 @@ sub update_conf {
     lutzomyia_longipalpis   
     lytechinus_variegatus_gca018143015v1  
     mayetiola_destructor   
+    megachile_rotundata_gca000220905v1rs
     megaselia_scalaris  
     melitaea_cinxia
     mercenaria_mercenaria_gca014805675v2
-    metaseiulus_occidentalis_gca000255335v1
     mizuhopecten_yessoensis_gca002113885v2   
     mnemiopsis_leidyi   
     monomorium_pharaonis_gca013373865v2  
@@ -187,14 +205,17 @@ sub update_conf {
     parasteatoda_tepidariorum_gca000365465v3
     patiria_miniata_gca015706575v1  
     pediculus_humanus
+    penaeus_chinensis_gca019202785v2rs
     penaeus_japonicus_gca017312705v1
     penaeus_monodon_gca015228065v1
     penaeus_vannamei_gca003789085v1
     phlebotomus_papatasi
     phlebotomus_perniciosus_gca918844115
     pocillopora_damicornis_gca003704095v1
+    pogonomyrmex_barbatus_gca000187915v1rs
     pollicipes_pollicipes_gca011947565v2   
     pomacea_canaliculata_gca003073045v1
+    pomphorhynchus_laevis_gca012934845v2gb
     portunus_trituberculatus_gca017591435v1   
     priapulus_caudatus_gca000485595v2  
     pristionchus_pacificus   
@@ -206,9 +227,11 @@ sub update_conf {
     rhopalosiphum_maidis_gca003676215v3   
     saccoglossus_kowalevskii_gca000003605v1   
     sarcoptes_scabiei  
+    schistosoma_haematobium_gca000699445v2rs
     schistosoma_mansoni
     sipha_flava_gca003268045v1
     solenopsis_invicta
+    stegodyphus_dumicola_gca010614865v2rs
     stegodyphus_mimosarum   
     stomoxys_calcitrans   
     strigamia_maritima   
