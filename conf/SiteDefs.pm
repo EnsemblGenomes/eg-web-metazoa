@@ -168,7 +168,6 @@ sub update_conf {
     ixodes_scapularis_ise6  
     ixodes_scapularis_gca016920785v2  
     lepeophtheirus_salmonis
-    lepeophtheirus_salmonis_gca016086655v3r
     leptinotarsa_decemlineata_gca000500325v2   
     leptotrombidium_deliense
     limulus_polyphemus_gca000517525v1
