@@ -34,12 +34,15 @@ sub update_conf {
     actinia_equina_gca011057435
     actinia_tenebrosa_gca009602425v1   
     acyrthosiphon_pisum   
+    acyrthosiphon_pisum_gca005508785v2rs
     adineta_vaga   
     aedes_aegypti_lvpagwg  
     aedes_albopictus   
     agrilus_planipennis_gca000699045v2
     amphibalanus_amphitrite_gca019059575v1  
     amphimedon_queenslandica   
+    amphimedon_queenslandica_gca000090795v2rs
+    amyelois_transitella_gca001186105v1rs
     anneissia_japonica_gca011630105v1   
     anopheles_albimanus  
     anopheles_arabiensis   
@@ -64,6 +67,7 @@ sub update_conf {
     anopheles_stephensi  
     anopheles_stephensi_indian   
     anoplophora_glabripennis  
+    anthonomus_grandis_gca022605725v3rs
     aphidius_gifuensis_gca014905175v1
     apis_dorsata_gca000469605v1rs
     apis_florea_gca000184785v2rs
@@ -72,6 +76,7 @@ sub update_conf {
     ascaris_suum
     asterias_rubens_gca902459465v3
     athalia_rosae_gca000344095v2
+    athalia_rosae_gca917208135v1
     atta_cephalotes   
     bactrocera_dorsalis_gca000789215v2  
     bactrocera_latifrons_gca001853355v1
@@ -83,9 +88,11 @@ sub update_conf {
     bemisia_tabaci_ssa2nig  
     bemisia_tabaci_ssa3nig  
     bemisia_tabaci_uganda1
+    bicyclus_anynana_gca900239965v1rs
     biomphalaria_glabrata  
     bombus_impatiens   
     bombus_terrestris   
+    bombus_terrestris_gca910591885v2
     bombyx_mandarina_gca003987935v1rs
     bombyx_mori  
     branchiostoma_lanceolatum
@@ -99,6 +106,7 @@ sub update_conf {
     capitella_teleta   
     centruroides_sculpturatus_gca000671375v2   
     ceratitis_capitata_gca000347755v4  
+    chelonus_insularis_gca013357705v1rs
     cimex_lectularius
     clytia_hemisphaerica_gca902728285   
     copidosoma_floridanum_gca000648655v2  
@@ -115,9 +123,11 @@ sub update_conf {
     daphnia_pulicaria_gca021234035v2rs
     dendroctonus_ponderosae_gca000355655v1   
     dendronephthya_gigantea_gca004324835v1  
+    dermacentor_andersoni_gca023375885v2rs
     dermacentor_silvarum_gca013339745v1
     dermatophagoides_pteronyssinus_gca001901225v2   
     diabrotica_virgifera_gca003013835v2
+    diabrotica_virgifera_gca917563875v2rs
     dimorphilus_gyrociliatus_gca904063045v1   
     dinothrombium_tinctorium   
     diuraphis_noxia_gca001186385v1   
@@ -140,6 +150,7 @@ sub update_conf {
     exaiptasia_diaphana_gca001417965v1
     folsomia_candida  
     galendromus_occidentalis_gca000255335v2rs
+    galleria_mellonella_gca003640425v2rs
     gigantopelta_aegis_gca016097555v1
     glossina_austeni
     glossina_brevipalpis
@@ -153,9 +164,12 @@ sub update_conf {
     haliotis_rufescens_gca023055435v1rs 
     harpegnathos_saltator_gca003227715v2rs
     heliconius_melpomene   
+    helicoverpa_armigera_gca023701775v1rs
+    helicoverpa_zea_gca022581195v1rs
     helobdella_robusta  
     hermetia_illucens_gca905115235v1   
     hofstenia_miamia  
+    homalodisca_vitripennis_gca021130785v2rs
     homarus_americanus_gca018991925v1
     hyalella_azteca_gca000764305v2
     hyalomma_asiaticum_gca013339685v1
@@ -165,8 +179,9 @@ sub update_conf {
     hypsibius_exemplaris_gca002082055v1
     ixodes_persulcatus_gca013358835v1
     ixodes_scapularis   
-    ixodes_scapularis_ise6  
     ixodes_scapularis_gca016920785v2  
+    ixodes_scapularis_ise6
+    leguvora_glycinivorella_gca023078275v1rs.ini
     lepeophtheirus_salmonis
     lepeophtheirus_salmonis_gca016086655v3rs
     leptinotarsa_decemlineata_gca000500325v2   
@@ -178,12 +193,15 @@ sub update_conf {
     loa_loa  
     lottia_gigantea  
     lucilia_cuprina
+    lucilia_cuprina_gca022045245v1rs
     lutzomyia_longipalpis   
     lytechinus_variegatus_gca018143015v1  
+    manduca_sexta_gca014839805v1rs
     mayetiola_destructor   
     megachile_rotundata_gca000220905v1rs
     megaselia_scalaris  
     melitaea_cinxia
+    melitaea_cinxia_gca905220565v1
     mercenaria_mercenaria_gca014805675v2
     mizuhopecten_yessoensis_gca002113885v2   
     mnemiopsis_leidyi   
@@ -192,6 +210,9 @@ sub update_conf {
     nasonia_vitripennis   
     necator_americanus  
     nematostella_vectensis   
+    neodiprion_lecontei_gca021901455v1rs
+    neodiprion_pinetum_gca021155775v1rs
+    nilaparvata_lugens_gca014356525v1rs
     octopus_bimaculoides
     octopus_bimaculoides_gca001194135v1
     octopus_sinensis_gca006345805v1  
@@ -204,6 +225,7 @@ sub update_conf {
     owenia_fusiformis_gca903813345v1   
     parasteatoda_tepidariorum_gca000365465v3
     patiria_miniata_gca015706575v1  
+    pectinophora_gossypiella_gca024362695v1rs
     pediculus_humanus
     penaeus_chinensis_gca019202785v2rs
     penaeus_japonicus_gca017312705v1
@@ -211,8 +233,12 @@ sub update_conf {
     penaeus_vannamei_gca003789085v1
     phlebotomus_papatasi
     phlebotomus_perniciosus_gca918844115
+    phlebotomus_perniciosus_gca918844115v2
     pocillopora_damicornis_gca003704095v1
     pogonomyrmex_barbatus_gca000187915v1rs
+    polistes_canadensis_gca001313835v1rs
+    polistes_dominula_gca001465965v1rs
+    polistes_fuscatus_gca010416935v1rs
     pollicipes_pollicipes_gca011947565v2   
     pomacea_canaliculata_gca003073045v1
     pomphorhynchus_laevis_gca012934845v2gb
@@ -227,9 +253,11 @@ sub update_conf {
     rhopalosiphum_maidis_gca003676215v3   
     saccoglossus_kowalevskii_gca000003605v1   
     sarcoptes_scabiei  
+    schistocerca_americana_gca021461395v2rs
     schistosoma_haematobium_gca000699445v2rs
     schistosoma_mansoni
     sipha_flava_gca003268045v1
+    sitophilus_oryzae_gca002938485v2rs
     solenopsis_invicta
     stegodyphus_dumicola_gca010614865v2rs
     stegodyphus_mimosarum   
@@ -241,6 +269,7 @@ sub update_conf {
     teleopsis_dalmanni
     tetranychus_urticae   
     thelohanellus_kitauei   
+    thrips_palmi_gca012932325v1rs
     tigriopus_californicus_gca007210705  
     trialeurodes_vaporariorum_gca011764245   
     tribolium_castaneum   
@@ -249,6 +278,8 @@ sub update_conf {
     trichoplax_adhaerens   
     trichuris_muris   
     varroa_destructor_gca002443255   
+    venturia_canescens_gca019457755v1rs
+    zerene_cesonia_gca012273895v2rs
     zootermopsis_nevadensis
   )];
 
