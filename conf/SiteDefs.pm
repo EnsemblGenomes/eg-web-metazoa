@@ -181,7 +181,7 @@ sub update_conf {
     ixodes_scapularis   
     ixodes_scapularis_gca016920785v2  
     ixodes_scapularis_ise6
-    leguvora_glycinivorella_gca023078275v1rs.ini
+    leguminivora_glycinivorella_gca023078275v1rs
     lepeophtheirus_salmonis
     lepeophtheirus_salmonis_gca016086655v3rs
     leptinotarsa_decemlineata_gca000500325v2   
