@@ -33,26 +33,37 @@ sub _configure_new_gene_trees {
   my $self = shift;
   my $db_name = 'DATABASE_COMPARA';
   my $dbh = $self->db_connect($db_name);
-warn "++++++";
-  ## Store clustersets for metazoa gene trees
-  foreach my $sp (keys %{$self->db_tree->{$db_name}{'COMPARA_SPECIES'}}) {
-    warn $sp;
-    my $sth = $dbh->prepare('
-      SELECT DISTINCT TRIM(LEADING "collection-" FROM ssh.name) AS collection_name
-      FROM method_link_species_set mlss
-      JOIN method_link ml USING(method_link_id)
-      JOIN species_set ss USING(species_set_id)
-      JOIN species_set_header ssh USING(species_set_id)
-      JOIN genome_db gd USING(genome_db_id)
-      WHERE ml.type IN ("PROTEIN_TREES", "NC_TREES")
-      AND gd.name = ?
-      ORDER BY FIELD(ssh.name, "collection-default", "default") DESC
-    ');
 
+  ## Store clustersets for metazoa gene trees
+  my $sth = $dbh->prepare('
+    SELECT DISTINCT TRIM(LEADING "collection-" FROM ssh.name) AS collection_name
+    FROM method_link_species_set mlss
+    JOIN method_link ml USING(method_link_id)
+    JOIN species_set ss USING(species_set_id)
+    JOIN species_set_header ssh USING(species_set_id)
+    JOIN genome_db gd USING(genome_db_id)
+    WHERE ml.type IN ("PROTEIN_TREES", "NC_TREES")
+    AND gd.name = ?
+    ORDER BY FIELD(ssh.name, "collection-default", "default") DESC
+  ');
+
+  foreach my $sp (keys %{$self->db_tree->{$db_name}{'COMPARA_SPECIES'}}) {
     $sth->bind_param(1,$sp);
     $sth->execute;
-    my (@clusterset_id) = $sth->fetchrow_array;
-    $self->db_tree->{$db_name}{'METAZOA_CLUSTERSETS'}{$sp} = \@clusterset_id;
+
+    # get all Compara clusterset ids to which a species may belong
+    # (possible values for Metazoa: "default", "protostomes", "insects")
+    my $clusterset_ids = $sth->fetchall_arrayref();
+
+    foreach my $row (@{$clusterset_ids}) {
+      my ($clusterset_id) = @{$row};
+
+      if (exists $self->db_tree->{$db_name}{'METAZOA_CLUSTERSETS'}{$sp}) {
+        push (@{$self->db_tree->{$db_name}{'METAZOA_CLUSTERSETS'}{$sp}}, $clusterset_id);
+      } else {
+        $self->db_tree->{$db_name}{'METAZOA_CLUSTERSETS'}{$sp} = [$clusterset_id];
+      }
+   }
   }
 }
 
