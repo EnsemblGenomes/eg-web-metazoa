@@ -18,23 +18,51 @@ limitations under the License.
 =cut
 
 package EnsEMBL::Web::Configuration::Gene;
+
+use List::MoreUtils qw(any);
+
 use Data::Dumper;
 
 sub modify_tree {
   my $self         = shift;
   my $hub          = $self->hub;
   my $species_defs = $hub->species_defs;
+  my $species = $hub->species;
+
+  my $species_production_name = $species_defs->SPECIES_PRODUCTION_NAME;
+
+  $Data::Dumper::Maxdepth = 6;
+
+  # Possible gene cluster set ids for metazoa: "default", "protostomes", "insects".
+  # A species can have one or more of these trees associated with it
+  my $clusterset_ids = $hub->species_defs->multi_hash->{'DATABASE_COMPARA'}{'METAZOA_CLUSTERSETS'}{$species_production_name};
 
 
   my $compara_menu = $self->get_node('Compara');
   my $genetree_menu = $self->get_node('Compara_Tree');
 
   $genetree_menu->set('caption', 'Gene tree (default)');
+  $genetree_menu->set('availability', $self->has_default_gene_tree($clusterset_ids));
 
   $genetree_menu->after($self->create_node('Protostomes_Tree', 'Gene tree (Protostomes)',
     [qw( image EnsEMBL::Web::Component::Gene::ProtostomesTree )],
-    { 'availability' => 'gene database:compara core has_gene_tree' }
+    { 'availability' => $self->has_protostomes_gene_tree($clusterset_ids) }
   ));
+
+}
+
+sub has_default_gene_tree {
+  my ($self, $clusterset_ids) = @_;
+
+  return any { $_ eq "default" } @$clusterset_ids;
+}
+
+sub has_protostomes_gene_tree {
+  my ($self, $clusterset_ids) = @_;
+
+  warn Dumper("Clusterset ids in subroutine", $clusterset_ids);
+
+  return any { $_ eq "protostomes" } @$clusterset_ids;
 }
 
 1;
