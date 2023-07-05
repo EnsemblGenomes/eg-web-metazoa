@@ -21,8 +21,6 @@ package EnsEMBL::Web::Configuration::Gene;
 
 use List::MoreUtils qw(any);
 
-use Data::Dumper;
-
 sub modify_tree {
   my $self         = shift;
   my $hub          = $self->hub;
@@ -41,7 +39,7 @@ sub modify_tree {
   my $compara_menu = $self->get_node('Compara');
   my $genetree_menu = $self->get_node('Compara_Tree');
 
-  $genetree_menu->set('caption', 'Gene tree (default)');
+  $genetree_menu->set('caption', 'Gene tree (Metazoa)');
   $genetree_menu->set('availability', $self->has_default_gene_tree($clusterset_ids));
 
   $genetree_menu->after($self->create_node('Protostomes_Tree', 'Gene tree (Protostomes)',
@@ -59,8 +57,6 @@ sub has_default_gene_tree {
 
 sub has_protostomes_gene_tree {
   my ($self, $clusterset_ids) = @_;
-
-  warn Dumper("Clusterset ids in subroutine", $clusterset_ids);
 
   return any { $_ eq "protostomes" } @$clusterset_ids;
 }
