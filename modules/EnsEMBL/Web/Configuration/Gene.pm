@@ -36,7 +36,6 @@ sub modify_tree {
   my $clusterset_ids = $hub->species_defs->multi_hash->{'DATABASE_COMPARA'}{'METAZOA_CLUSTERSETS'}{$species_production_name};
 
 
-  my $compara_menu = $self->get_node('Compara');
   my $genetree_menu = $self->get_node('Compara_Tree');
 
   $genetree_menu->set('caption', 'Gene tree (Metazoa)');
@@ -46,6 +45,13 @@ sub modify_tree {
     [qw( image EnsEMBL::Web::Component::Gene::ProtostomesTree )],
     { 'availability' => $self->has_protostomes_gene_tree($clusterset_ids) }
   ));
+
+
+  my $compara_strains_menu = $self->get_node('Strain_Compara');
+
+  if ($compara_strains_menu) {
+    $compara_strains_menu->remove();
+  }
 
 }
 
