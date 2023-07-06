@@ -29,8 +29,6 @@ sub modify_tree {
 
   my $species_production_name = $species_defs->SPECIES_PRODUCTION_NAME;
 
-  $Data::Dumper::Maxdepth = 6;
-
   # Possible gene cluster set ids for metazoa: "default", "protostomes", "insects".
   # A species can have one or more of these trees associated with it
   my $clusterset_ids = $hub->species_defs->multi_hash->{'DATABASE_COMPARA'}{'METAZOA_CLUSTERSETS'}{$species_production_name};
