@@ -43,7 +43,7 @@ sub viewconfig {
   # Adding this for good measure.
   # The ComparaTree.pm module in eg-web-common reads clusterset id both from the viewconfig,
   # and from the genetree object; and gets confused if they don't match.
-  $viewconfig->set_user_setting('clusterset_id', 'protostomes');
+  $viewconfig->{'options'}{'clusterset_id'} = 'protostomes';
 
   return $viewconfig;
 }
