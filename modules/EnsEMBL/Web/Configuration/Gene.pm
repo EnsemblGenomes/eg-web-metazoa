@@ -19,10 +19,14 @@ limitations under the License.
 
 package EnsEMBL::Web::Configuration::Gene;
 
+use previous qw(modify_tree);
 use List::MoreUtils qw(any);
 
 sub modify_tree {
   my $self         = shift;
+
+  $self->PREV::modify_tree(@_);
+
   my $hub          = $self->hub;
   my $species_defs = $hub->species_defs;
   my $species = $hub->species;
