@@ -132,7 +132,7 @@ sub update_conf {
     dendroctonus_ponderosae_gca000355655v1   
     dendronephthya_gigantea_gca004324835v1  
     dermacentor_andersoni_gca023375885v2rs
-    dermacentor_silvarum_gca013339745v1
+    dermacentor_silvarum_gca013339745v2rs
     dermatophagoides_pteronyssinus_gca001901225v2   
     diabrotica_virgifera_gca003013835v2
     diabrotica_virgifera_gca917563875v2rs
