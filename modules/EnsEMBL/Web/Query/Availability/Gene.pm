@@ -1,0 +1,60 @@
+
+=head1 LICENSE
+
+Copyright [2009-2022] EMBL-European Bioinformatics Institute
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+=cut
+
+package EnsEMBL::Web::Query::Availability::Gene;
+
+use previous qw(_counts);
+
+sub _counts {
+  my $self = shift;
+
+  my $compara_member = @_[1];
+  my $counts = $self->PREV::_counts(@_);
+
+  my $hub = $self->context;
+
+  my $species_defs = $hub->species_defs;
+  my $species_production_name = $species_defs->SPECIES_PRODUCTION_NAME;
+
+  # Possible gene cluster set ids for metazoa: "default", "protostomes", "insects".
+  # A species can have one or more of these trees associated with it
+  my $clusterset_ids = $hub->species_defs->multi_hash->{'DATABASE_COMPARA'}{'METAZOA_CLUSTERSETS'}{$species_production_name};
+
+  # In the parent method (_counts in ensembl-webcode),
+  # homologs and orthologs are only calculated against the default clusterset;
+  # but metazoa have three clustersets
+  for my $clusterset_id (@$clusterset_ids) {
+    warn "CLUSTERSET ID " . $clusterset_id;
+    warn $compara_member->number_of_paralogues($clusterset_id);
+
+    if (!$counts->{'orthologs'}) {
+      my $orthologs_count = $compara_member->number_of_orthologues($clusterset_id);
+      $counts->{'orthologs'} = $orthologs_count;      
+    }
+
+    if (!$counts->{'paralogs'}) {
+      my $paralogs_count = $compara_member->number_of_paralogues($clusterset_id);
+      $counts->{'paralogs'} = $paralogs_count;
+    }
+  }
+
+  return $counts;
+}
+
+1;
