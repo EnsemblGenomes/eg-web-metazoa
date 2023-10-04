@@ -41,15 +41,15 @@ sub _counts {
   # but metazoa have three clustersets
   for my $clusterset_id (@$clusterset_ids) {
     warn "CLUSTERSET ID " . $clusterset_id;
-    warn $compara_member->number_of_paralogues($clusterset_id);
+    warn $compara_member->number_of_paralogues($clusterset_id) if defined $compara_member;
 
     if (!$counts->{'orthologs'}) {
-      my $orthologs_count = $compara_member->number_of_orthologues($clusterset_id);
+      my $orthologs_count = defined $compara_member ? $compara_member->number_of_orthologues($clusterset_id) : 0;
       $counts->{'orthologs'} = $orthologs_count;      
     }
 
     if (!$counts->{'paralogs'}) {
-      my $paralogs_count = $compara_member->number_of_paralogues($clusterset_id);
+      my $paralogs_count = defined $compara_member ? $compara_member->number_of_paralogues($clusterset_id) : 0;
       $counts->{'paralogs'} = $paralogs_count;
     }
   }
