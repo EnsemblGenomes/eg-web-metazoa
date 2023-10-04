@@ -40,8 +40,6 @@ sub _counts {
   # homologs and orthologs are only calculated against the default clusterset;
   # but metazoa have three clustersets
   for my $clusterset_id (@$clusterset_ids) {
-    warn "CLUSTERSET ID " . $clusterset_id;
-    warn $compara_member->number_of_paralogues($clusterset_id) if defined $compara_member;
 
     if (!$counts->{'orthologs'}) {
       my $orthologs_count = defined $compara_member ? $compara_member->number_of_orthologues($clusterset_id) : 0;
