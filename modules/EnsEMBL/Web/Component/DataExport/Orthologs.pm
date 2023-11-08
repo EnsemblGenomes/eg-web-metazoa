@@ -85,10 +85,9 @@ sub get_genetree_fields {
   );
 
   my @fields = map { $clusterset_id_to_field_map{$_} } @$clusterset_ids;
-  my $fields = \@fields;
-  $fields[0]{checked} = 1;
+  $fields[0]->{checked} = 1;
 
-  return $fields;
+  return \@fields;
 }
 
 1;
