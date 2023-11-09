@@ -22,8 +22,6 @@ package EnsEMBL::Web::Configuration::Gene;
 use previous qw(modify_tree);
 use List::MoreUtils qw(any);
 
-use Data::Dumper;
-
 sub modify_tree {
   my $self         = shift;
 
@@ -38,9 +36,6 @@ sub modify_tree {
   # Possible gene cluster set ids for metazoa: "default", "protostomes", "insects".
   # A species can have one or more of these trees associated with it
   my $clusterset_ids = $hub->species_defs->multi_hash->{'DATABASE_COMPARA'}{'METAZOA_CLUSTERSETS'}{$species_production_name};
-
-  warn "CLUSTERSET IDS";
-  warn Dumper($clusterset_ids);
 
   my $genetree_menu = $self->get_node('Compara_Tree');
 
