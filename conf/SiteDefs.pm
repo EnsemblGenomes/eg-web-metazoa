@@ -125,8 +125,7 @@ sub update_conf {
     culicoides_sonorensis
     daktulosphaira_vitifoliae_gca025091365v1rs
     danaus_plexippus
-    daphnia_magna_gca020631705v2
-    daphnia_pulex   
+    daphnia_magna_gca020631705v2   
     daphnia_pulex_gca021134715v1rs
     daphnia_pulicaria_gca021234035v2rs
     dendroctonus_ponderosae_gca000355655v1   
@@ -183,7 +182,6 @@ sub update_conf {
     homarus_americanus_gca018991925v1
     hyalella_azteca_gca000764305v2
     hyalomma_asiaticum_gca013339685v1
-    hydra_vulgaris_gca000004095v1   
     hydra_vulgaris_gca022113875v1rs
     hymenolepis_microstoma  
     hypsibius_exemplaris_gca002082055v1
@@ -229,8 +227,6 @@ sub update_conf {
     neodiprion_lecontei_gca021901455v1rs
     neodiprion_pinetum_gca021155775v1rs
     nilaparvata_lugens_gca014356525v1rs
-    octopus_bimaculoides
-    octopus_bimaculoides_gca001194135v1
     octopus_sinensis_gca006345805v1  
     onchocerca_volvulus
     onthophagus_taurus_gca000648695v2   
@@ -268,7 +264,6 @@ sub update_conf {
     procambarus_clarkii_gca020424385v2
     rhagoletis_pomonella_gca013731165v1   
     rhipicephalus_microplus_gca013339725v1   
-    rhipicephalus_sanguineus_gca013339695v1  
     rhipicephalus_sanguineus_gca013339695v2rs
     rhodnius_prolixus
     rhopalosiphum_maidis_gca003676215v3   
