@@ -81,6 +81,10 @@ sub get_genetree_fields {
     insects => {
       caption => 'Insects',
       value => 'insects',
+    },
+    pangenome_drosophila => {
+      caption => 'Drosophilidae',
+      value => 'pangenome_drosophila',
     }
   );
 

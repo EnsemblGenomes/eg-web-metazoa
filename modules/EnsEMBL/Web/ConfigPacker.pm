@@ -52,7 +52,7 @@ sub _configure_new_gene_trees {
     $sth->execute;
 
     # get all Compara clusterset ids to which a species may belong
-    # (possible values for Metazoa: "default", "protostomes", "insects")
+    # (possible values for Metazoa: "default", "protostomes", "insects", "pangenome_drosophila")
     my $clusterset_ids = $sth->fetchall_arrayref();
 
     foreach my $row (@{$clusterset_ids}) {
