@@ -19,7 +19,7 @@ limitations under the License.
 
 package EnsEMBL::Web::Query::Availability::Gene;
 
-use previous qw(_counts);
+use previous qw(_counts get);
 
 sub _counts {
   my $self = shift;
@@ -53,6 +53,20 @@ sub _counts {
   }
 
   return $counts;
+}
+
+sub get {
+
+  my ($self, $args) = @_;
+
+  my ($out) = @{$self->PREV::get($args)};
+
+  my $member = $self->compara_member($args);
+
+  $out->{'has_gene_tree_protostomes'} = $member ? $member->has_GeneTree('protostomes') : 0;
+  $out->{'has_gene_tree_insects'} = $member ? $member->has_GeneTree('insects') : 0;
+
+  return [$out];
 }
 
 1;
