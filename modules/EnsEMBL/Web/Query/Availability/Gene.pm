@@ -65,6 +65,7 @@ sub get {
 
   $out->{'has_gene_tree_protostomes'} = $member ? $member->has_GeneTree('protostomes') : 0;
   $out->{'has_gene_tree_insects'} = $member ? $member->has_GeneTree('insects') : 0;
+  $out->{'has_gene_tree_drosophila'} = $member ? $member->has_GeneTree('pangenome_drosophila') : 0;
 
   return [$out];
 }
