@@ -40,16 +40,16 @@ sub modify_tree {
   my $genetree_menu = $self->get_node('Compara_Tree');
 
   $genetree_menu->set('caption', 'Gene tree (Metazoa)');
-  $genetree_menu->set('availability', $self->has_default_gene_tree($clusterset_ids));
+  $genetree_menu->set('availability', 'gene database:compara core has_gene_tree');
 
   my $protostomes_node = $self->create_node('Protostomes_Tree', 'Gene tree (Protostomes)',
     [qw( image EnsEMBL::Web::Component::Gene::ProtostomesTree )],
-    { 'availability' => $self->has_protostomes_gene_tree($clusterset_ids) }
+    { 'availability' => 'gene database:compara core has_gene_tree_protostomes' }
   );
 
   my $insects_node = $self->create_node('Insects_Tree', 'Gene tree (Insects)',
     [qw( image EnsEMBL::Web::Component::Gene::InsectsTree )],
-    { 'availability' => $self->has_insects_gene_tree($clusterset_ids) }
+    { 'availability' => 'gene database:compara core has_gene_tree_insects' }
   );
 
   my $drosophilidae_node = $self->create_node('Drosophilidae_Tree', 'Gene tree (Drosophilidae)',
@@ -67,24 +67,6 @@ sub modify_tree {
     $compara_strains_menu->remove();
   }
 
-}
-
-sub has_default_gene_tree {
-  my ($self, $clusterset_ids) = @_;
-
-  return any { $_ eq "default" } @$clusterset_ids;
-}
-
-sub has_protostomes_gene_tree {
-  my ($self, $clusterset_ids) = @_;
-
-  return any { $_ eq "protostomes" } @$clusterset_ids;
-}
-
-sub has_insects_gene_tree {
-  my ($self, $clusterset_ids) = @_;
-
-  return any { $_ eq "insects" } @$clusterset_ids;
 }
 
 sub has_drosophilidae_gene_tree {
