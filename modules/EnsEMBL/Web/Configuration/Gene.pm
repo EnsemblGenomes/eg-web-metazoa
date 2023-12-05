@@ -52,8 +52,14 @@ sub modify_tree {
     { 'availability' => $self->has_insects_gene_tree($clusterset_ids) }
   );
 
+  my $drosophilidae_node = $self->create_node('Drosophilidae_Tree', 'Gene tree (Drosophilidae)',
+    [qw( image EnsEMBL::Web::Component::Gene::DrosophilidaeTree )],
+    { 'availability' => $self->has_drosophilidae_gene_tree($clusterset_ids) }
+  );
+
   $genetree_menu->after($protostomes_node);
   $protostomes_node -> after($insects_node);
+  $insects_node -> after($drosophilidae_node);
 
   my $compara_strains_menu = $self->get_node('Strain_Compara');
 
@@ -79,6 +85,12 @@ sub has_insects_gene_tree {
   my ($self, $clusterset_ids) = @_;
 
   return any { $_ eq "insects" } @$clusterset_ids;
+}
+
+sub has_drosophilidae_gene_tree {
+  my ($self, $clusterset_ids) = @_;
+
+  return any { $_ eq "pangenome_drosophila" } @$clusterset_ids;
 }
 
 1;
