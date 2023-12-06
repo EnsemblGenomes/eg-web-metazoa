@@ -54,7 +54,7 @@ sub modify_tree {
 
   my $drosophilidae_node = $self->create_node('Drosophilidae_Tree', 'Gene tree (Drosophilidae)',
     [qw( image EnsEMBL::Web::Component::Gene::DrosophilidaeTree )],
-    { 'availability' => $self->has_drosophilidae_gene_tree($clusterset_ids) }
+    { 'availability' => 'gene database:compara core has_gene_tree_drosophila' }
   );
 
   $genetree_menu->after($protostomes_node);
@@ -67,12 +67,6 @@ sub modify_tree {
     $compara_strains_menu->remove();
   }
 
-}
-
-sub has_drosophilidae_gene_tree {
-  my ($self, $clusterset_ids) = @_;
-
-  return any { $_ eq "pangenome_drosophila" } @$clusterset_ids;
 }
 
 1;
