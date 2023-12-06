@@ -54,7 +54,6 @@ sub modify_tree {
 
   my $drosophilidae_node = $self->create_node('Drosophilidae_Tree', 'Gene tree (Drosophilidae)',
     [qw( image EnsEMBL::Web::Component::Gene::DrosophilidaeTree )],
-    #{ 'availability' => $self->has_drosophilidae_gene_tree($clusterset_ids) }
     { 'availability' => 'gene database:compara core has_gene_tree_drosophila' }
   );
 
