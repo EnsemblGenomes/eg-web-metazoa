@@ -63,6 +63,10 @@ sub get {
 
   my $member = $self->compara_member($args);
 
+  $out->{'has_orthologs_default'} = $member ? $member->number_of_orthologues('default') : 0;
+  $out->{'has_orthologs_protostomes'} = $member ? $member->number_of_orthologues('protostomes') : 0;
+  $out->{'has_orthologs_insects'} = $member ? $member->number_of_orthologues('insects') : 0;
+
   $out->{'has_gene_tree_protostomes'} = $member ? $member->has_GeneTree('protostomes') : 0;
   $out->{'has_gene_tree_insects'} = $member ? $member->has_GeneTree('insects') : 0;
   $out->{'has_gene_tree_drosophila'} = $member ? $member->has_GeneTree('pangenome_drosophila') : 0;

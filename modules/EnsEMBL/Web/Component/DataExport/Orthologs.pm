@@ -61,6 +61,11 @@ sub get_clusterset_ids {
 
   my $clusterset_ids = $hub->species_defs->multi_hash->{'DATABASE_COMPARA'}{'METAZOA_CLUSTERSETS'}{$species_production_name};
 
+  # If possible, we should filter out clustersets for which this gene lacks orthologs.
+  if ($hub->param('g')) {
+    $clusterset_ids = [grep { $hub->core_object('gene')->availability->{"has_orthologs_${_}"} } @$clusterset_ids];
+  }
+
   return $clusterset_ids;
 }
 
