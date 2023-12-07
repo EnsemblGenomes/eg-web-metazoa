@@ -63,13 +63,19 @@ sub get {
 
   my $member = $self->compara_member($args);
 
-  $out->{'has_orthologs_default'} = $member ? $member->number_of_orthologues('default') : 0;
-  $out->{'has_orthologs_protostomes'} = $member ? $member->number_of_orthologues('protostomes') : 0;
-  $out->{'has_orthologs_insects'} = $member ? $member->number_of_orthologues('insects') : 0;
+  my $hub = $self->context;
+  my $species_defs = $hub->species_defs;
+  my $species_production_name = $species_defs->SPECIES_PRODUCTION_NAME;
+  my $clusterset_ids = $hub->species_defs->multi_hash->{'DATABASE_COMPARA'}{'METAZOA_CLUSTERSETS'}{$species_production_name};
 
-  $out->{'has_gene_tree_protostomes'} = $member ? $member->has_GeneTree('protostomes') : 0;
-  $out->{'has_gene_tree_insects'} = $member ? $member->has_GeneTree('insects') : 0;
-  $out->{'has_gene_tree_drosophila'} = $member ? $member->has_GeneTree('pangenome_drosophila') : 0;
+  foreach my $clusterset_id (@$clusterset_ids) {
+    $out->{"has_orthologs_${clusterset_id}"} = $member ? $member->number_of_orthologues($clusterset_id) : 0;
+
+    # We can use the 'has_gene_tree' tag for the default collection.
+    if ($clusterset_id ne 'default') {
+      $out->{"has_gene_tree_${clusterset_id}"} = $member ? $member->has_GeneTree($clusterset_id) : 0;
+    }
+  }
 
   return [$out];
 }
