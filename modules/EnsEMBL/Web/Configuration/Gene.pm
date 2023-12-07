@@ -59,7 +59,10 @@ sub modify_tree {
 
   my $drosophilidae_node = $self->create_node('Drosophilidae_Tree', 'Gene tree (Drosophilidae)',
     [qw( image EnsEMBL::Web::Component::Gene::DrosophilidaeTree )],
-    { 'availability' => 'gene database:compara core has_gene_tree_pangenome_drosophila' }
+    {
+      'availability'  => 'gene database:compara core has_gene_tree_pangenome_drosophila',
+      'no_menu_entry' => none { $_ eq 'pangenome_drosophila' } @$clusterset_ids
+    }
   );
   push(@genetree_menu_nodes, $drosophilidae_node);
 
