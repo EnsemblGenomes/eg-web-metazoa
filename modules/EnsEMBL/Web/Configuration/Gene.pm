@@ -20,7 +20,7 @@ limitations under the License.
 package EnsEMBL::Web::Configuration::Gene;
 
 use previous qw(modify_tree);
-use List::MoreUtils qw(any);
+use List::MoreUtils qw(none);
 
 sub modify_tree {
   my $self         = shift;
@@ -37,29 +37,38 @@ sub modify_tree {
   # A species can have one or more of these trees associated with it
   my $clusterset_ids = $hub->species_defs->multi_hash->{'DATABASE_COMPARA'}{'METAZOA_CLUSTERSETS'}{$species_production_name};
 
+  my @genetree_menu_nodes;
+
   my $genetree_menu = $self->get_node('Compara_Tree');
 
   $genetree_menu->set('caption', 'Gene tree (Metazoa)');
   $genetree_menu->set('availability', 'gene database:compara core has_gene_tree');
+  push(@genetree_menu_nodes, $genetree_menu);
 
   my $protostomes_node = $self->create_node('Protostomes_Tree', 'Gene tree (Protostomes)',
     [qw( image EnsEMBL::Web::Component::Gene::ProtostomesTree )],
     { 'availability' => 'gene database:compara core has_gene_tree_protostomes' }
   );
+  push(@genetree_menu_nodes, $protostomes_node);
 
   my $insects_node = $self->create_node('Insects_Tree', 'Gene tree (Insects)',
     [qw( image EnsEMBL::Web::Component::Gene::InsectsTree )],
     { 'availability' => 'gene database:compara core has_gene_tree_insects' }
   );
+  push(@genetree_menu_nodes, $insects_node);
 
   my $drosophilidae_node = $self->create_node('Drosophilidae_Tree', 'Gene tree (Drosophilidae)',
     [qw( image EnsEMBL::Web::Component::Gene::DrosophilidaeTree )],
-    { 'availability' => 'gene database:compara core has_gene_tree_drosophila' }
+    {
+      'availability'  => 'gene database:compara core has_gene_tree_pangenome_drosophila',
+      'no_menu_entry' => none { $_ eq 'pangenome_drosophila' } @$clusterset_ids
+    }
   );
+  push(@genetree_menu_nodes, $drosophilidae_node);
 
-  $genetree_menu->after($protostomes_node);
-  $protostomes_node -> after($insects_node);
-  $insects_node -> after($drosophilidae_node);
+  foreach my $i (0 .. ($#genetree_menu_nodes - 1)) {
+    $genetree_menu_nodes[$i]->after($genetree_menu_nodes[$i+1]);
+  }
 
   my $compara_strains_menu = $self->get_node('Strain_Compara');
 
