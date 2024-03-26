@@ -49,10 +49,11 @@ sub create_gene_tree_links {
     my $gene_tree_constants = $self->get_gene_tree_constants($clusterset_id);
     my $gene_tree_name = $gene_tree_constants->{name};
     my $link_text = $is_single_clusterset ? 'View Gene Tree' : "View $gene_tree_name Gene Tree";
+    my $url_part = $is_pan ? 'PanComparaTree' : $gene_tree_constants->{url_part};
 
     my $tree_url = $hub->url({
       type   => 'Gene',
-      action => $gene_tree_constants->{url_part},
+      action => $url_part,
       g1     => $stable_id,
       anc    => $orthologue->{'gene_tree_node_id'},
       r      => undef
