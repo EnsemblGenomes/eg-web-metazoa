@@ -43,7 +43,7 @@ sub create_gene_tree_links {
 
   my $is_single_clusterset = scalar @{ $common_clusterset_ids } == 1;
 
-  my $links_str = '';
+  my @link_str_parts;
 
   foreach my $clusterset_id (@$common_clusterset_ids) {
     my $gene_tree_constants = $self->get_gene_tree_constants($clusterset_id);
