@@ -30,7 +30,9 @@ sub create_gene_tree_links {
   my $species = $params->{species};
   my $stable_id = $params->{stable_id};
   my $orthologue = $params->{orthologue};
+  my $cdb = $params->{cdb};
 
+  my $is_pan = $cdb =~/compara_pan_ensembl/;
   my $current_species_clusterset_ids = $self->get_current_species_clusterset_ids($species_defs);
   my $comparison_species_clusterset_ids = $self->get_clusterset_ids_for_comparison_species($species_defs, $species);
 
