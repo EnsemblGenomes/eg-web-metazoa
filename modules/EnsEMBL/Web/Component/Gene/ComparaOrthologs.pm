@@ -61,12 +61,7 @@ sub create_gene_tree_links {
 
     my $link_str = qq(<a href="$tree_url">$link_text</a>);
 
-    if ($is_single_clusterset) {
-      $links_str = $link_str;
-    } else {
-      $links_str = $links_str . $link_str;
-      $links_str = $links_str . '<br />';
-    }
+    push(@link_str_parts, $link_str);
   }
 
   return qq{<p class="top-margin">$links_str</p>};
