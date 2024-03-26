@@ -64,6 +64,8 @@ sub create_gene_tree_links {
     push(@link_str_parts, $link_str);
   }
 
+  my $links_str = join('<br />', @link_str_parts);
+
   return qq{<p class="top-margin">$links_str</p>};
 }
 
