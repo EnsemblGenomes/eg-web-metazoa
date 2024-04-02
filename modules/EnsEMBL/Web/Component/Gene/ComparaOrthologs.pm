@@ -57,7 +57,7 @@ sub create_gene_tree_links {
   my $current_gene_clusterset_ids = $self->get_current_gene_clusterset_ids($gene_availability);
   my $common_clusterset_ids = [grep { $orthologue->{'homologue'}->has_GeneTree($_) } @$current_gene_clusterset_ids];
 
-  my $is_single_clusterset = scalar @{ $current_gene_clusterset_ids } == 1;
+  my $is_single_clusterset = scalar @{ $common_clusterset_ids } == 1;
 
   my @link_str_parts;
 
