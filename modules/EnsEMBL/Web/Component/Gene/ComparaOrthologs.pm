@@ -47,7 +47,6 @@ sub create_gene_tree_links {
   my $params = shift;
 
   my $hub          = $self->hub;
-  my $species_defs = $hub->species_defs;
   my $gene_availability = $params->{gene_availability};
   my $stable_id = $params->{stable_id};
   my $orthologue = $params->{orthologue};
