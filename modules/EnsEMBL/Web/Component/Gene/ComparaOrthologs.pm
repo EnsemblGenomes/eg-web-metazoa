@@ -40,7 +40,7 @@ our $GENE_TREE_CONSTANTS = {
   }
 };
 
-our $METAZOA_CLUSTERSETS = [keys %$GENE_TREE_CONSTANTS];
+our $METAZOA_CLUSTERSETS = ['default', 'protostomes', 'insects', 'pangenome_drosophila'];
 
 sub create_gene_tree_links {
   my $self = shift;
