@@ -84,7 +84,7 @@ sub create_gene_tree_links {
 
   my $links_str = join('', @link_str_parts);
 
-  return qq{<p class="top-margin">$links_str</p>};
+  return $links_str;
 }
 
 sub get_current_gene_clusterset_ids {
