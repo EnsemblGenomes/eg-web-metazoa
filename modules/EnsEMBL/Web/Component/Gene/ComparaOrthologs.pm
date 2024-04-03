@@ -40,6 +40,7 @@ our $GENE_TREE_CONSTANTS = {
   }
 };
 
+# Declare clusterset ids separately in an array, to keep their order
 our $METAZOA_CLUSTERSETS = ['default', 'protostomes', 'insects', 'pangenome_drosophila'];
 
 sub create_gene_tree_links {
