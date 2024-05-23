@@ -125,7 +125,7 @@ sub update_conf {
     cryptotermes_secundus_gca002891405v2rs  
     ctenocephalides_felis_gca003426905v1rs
     culex_quinquefasciatus   
-    culex_quinquefasciatus_gca015732765v1  
+    culex_quinquefasciatus_gca015732765v1vb  
     culicoides_sonorensis
     daktulosphaira_vitifoliae_gca025091365v1rs
     danaus_plexippus
@@ -175,7 +175,7 @@ sub update_conf {
     drosophila_persimilis_gca003286085v2rs
     drosophila_pseudoobscura
     drosophila_pseudoobscura_gca009870125v2rs
-    drosophila_rhopaloa_gca000236305v2rs
+    drosophila_rhopaloa_gca018152115v1rs 
     drosophila_santomea_gca016746245v2rs
     drosophila_sechellia
     drosophila_sechellia_gca004382195v2rs
