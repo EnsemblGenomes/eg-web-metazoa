@@ -40,29 +40,28 @@ our $GENE_TREE_CONSTANTS = {
   }
 };
 
-# Declare clusterset ids separately in an array, to keep their order
-our $METAZOA_CLUSTERSETS = ['default', 'protostomes', 'insects', 'pangenome_drosophila'];
-
 sub create_gene_tree_links {
   my $self = shift;
   my $params = shift;
 
   my $hub          = $self->hub;
-  my $gene_availability = $params->{gene_availability};
+  my $anc_node_ids = $params->{anc_node_ids};
   my $stable_id = $params->{stable_id};
   my $orthologue = $params->{orthologue};
   my $cdb = $params->{cdb};
 
   my $is_pan = $cdb =~/compara_pan_ensembl/;
 
-  my $current_gene_clusterset_ids = $self->get_current_gene_clusterset_ids($gene_availability);
-  my $common_clusterset_ids = [grep { $orthologue->{'homologue'}->has_GeneTree($_) } @$current_gene_clusterset_ids];
+  my $target_member_id = $orthologue->{'homologue'}->canonical_member_id;
+  return '' unless exists $anc_node_ids->{$target_member_id};
 
-  my $is_single_clusterset = scalar @{ $common_clusterset_ids } == 1;
+  my @clusterset_ancestor_pairs = @{$anc_node_ids->{$target_member_id}};
+  my $is_single_clusterset = scalar @clusterset_ancestor_pairs == 1;
 
   my @link_str_parts;
 
-  foreach my $clusterset_id (@$common_clusterset_ids) {
+  foreach my $clusterset_ancestor_pair (@clusterset_ancestor_pairs) {
+    my ($clusterset_id, $anc_node_id) = @$clusterset_ancestor_pair;
     my $gene_tree_constants = $self->get_gene_tree_constants_for_clusterset($clusterset_id);
     my $gene_tree_name = $gene_tree_constants->{name};
     my $link_text = $is_single_clusterset ? 'View Gene Tree' : "View $gene_tree_name Gene Tree";
@@ -72,7 +71,7 @@ sub create_gene_tree_links {
       type   => 'Gene',
       action => $url_part,
       g1     => $stable_id,
-      anc    => $orthologue->{'gene_tree_node_id'},
+      anc    => $anc_node_id,
       r      => undef
     });
 
@@ -87,16 +86,15 @@ sub create_gene_tree_links {
   return $links_str;
 }
 
-sub get_current_gene_clusterset_ids {
+sub fetch_anc_node_ids {
   my $self = shift;
-  my $gene_availability = shift;
+  my $cdb  = shift;
 
-  my @current_gene_clusterset_ids = grep {
-    ($_ eq 'default' && $gene_availability->{'has_gene_tree'})
-    || $gene_availability->{"has_gene_tree_${_}"}
-  } @$METAZOA_CLUSTERSETS;
+  my $object = $self->object || $self->hub->core_object('gene');
+  my $member = $object->get_compara_Member({'stable_id' => $object->stable_id, 'cdb' => $cdb});
+  my $gene_tree_adaptor = $member->adaptor->db->get_GeneTreeAdaptor;
 
-  return \@current_gene_clusterset_ids;
+  return $gene_tree_adaptor->_fetch_all_ref_lca_node_ids_by_Member($member);
 }
 
 sub get_gene_tree_constants_for_clusterset {
