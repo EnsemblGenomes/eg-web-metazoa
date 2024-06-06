@@ -81,7 +81,6 @@ sub update_conf {
     aplysia_californica_gca000002075v2
     ascaris_suum
     asterias_rubens_gca902459465v3
-    athalia_rosae_gca000344095v2
     athalia_rosae_gca917208135v1
     atta_cephalotes   
     bactrocera_dorsalis_gca000789215v2  
@@ -178,7 +177,6 @@ sub update_conf {
     drosophila_miranda_gca003369915v2rs
     drosophila_mojavensis  
     drosophila_mojavensis_gca018153725v1rs
-    drosophila_nasuta_gca023558535v1rs
     drosophila_navojoa_gca001654015v2rs
     drosophila_obscura_gca018151105v1rs
     drosophila_persimilis
@@ -199,7 +197,6 @@ sub update_conf {
     drosophila_virilis_gca003285735v2rs
     drosophila_willistoni
     drosophila_willistoni_gca018902025v2rs
-    drosophila_yakuba
     drosophila_yakuba_gca016746365v2rs
     dufourea_novaeangliae_gca001272555v1rs
     echinococcus_granulosus_gca000524195v1rs   
@@ -274,7 +271,6 @@ sub update_conf {
     megachile_rotundata_gca000220905v1rs
     megaselia_scalaris  
     melanaphis_sacchari_gca002803265v2rs
-    melitaea_cinxia
     melitaea_cinxia_gca905220565v1
     mercenaria_mercenaria_gca014805675v2
     microctonus_aethiopoides_gca030272655v1cm
