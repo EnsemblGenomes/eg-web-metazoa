@@ -182,6 +182,7 @@ sub update_conf {
     drosophila_persimilis
     drosophila_persimilis_gca003286085v2rs
     drosophila_pseudoobscura
+    drosophila_pseudoobscura_gca009870125v2rs
     drosophila_rhopaloa_gca018152115v1rs 
     drosophila_santomea_gca016746245v2rs
     drosophila_sechellia
