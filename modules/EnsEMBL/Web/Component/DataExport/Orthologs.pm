@@ -30,6 +30,10 @@ sub prepare_form {
 
   my $form = $self->PREV::prepare_form(@_);
 
+  # If this is Pan-taxonomic Compara, our work here is done.
+  my $cdb = $self->hub->param('cdb') || 'compara';
+  return $form if $cdb eq 'compara_pan_ensembl';
+
   my $form_node = $form->get_elements_by_tag_name('form')->[0];
   my $genetree_fieldset = $form_node->add_fieldset();
   my $genetree_fields = $self->get_genetree_fields();
