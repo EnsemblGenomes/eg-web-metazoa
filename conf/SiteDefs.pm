@@ -37,7 +37,11 @@ sub update_conf {
     adelges_cooleyi_gca023614345v1rs
     adineta_vaga   
     aedes_aegypti_lvpagwg  
-    aedes_albopictus   
+    aedes_albopictus_gca035046485v1rs
+    anopheles_albimanus_gca013758885v1rs
+    anopheles_darlingi_gca943734745v1rs
+    anopheles_gambiae_gca943734735v2vb
+    argiope_bruennichi_gca947563725v1rs
     aethina_tumida_gca024364675v1rs
     agrilus_planipennis_gca000699045v2
     amblyteles_armatorius_gca933228735v1
@@ -52,7 +56,6 @@ sub update_conf {
     anopheles_arabiensis   
     anopheles_atroparvus_gca914969975
     anopheles_christyi
-    anopheles_coluzzii
     anopheles_coluzzii_gca943734685v1rs
     anopheles_coluzzii_ngousso
     anopheles_culicifacies
@@ -96,14 +99,15 @@ sub update_conf {
     bemisia_tabaci_uganda1
     bicyclus_anynana_gca900239965v1rs
     biomphalaria_glabrata  
+    biomphalaria_glabrata_gca947242115v1rs
     bombus_affinis_gca024516045v2rs
     bombus_huntii_gca024542735v1rs
     bombus_impatiens   
-    bombus_terrestris   
     bombus_terrestris_gca910591885v2
     bombus_vancouverensis_gca011952275v1rs
     bombyx_mandarina_gca003987935v1rs
     bombyx_mori  
+    bombyx_mori_gca030269925v1rs
     branchiostoma_lanceolatum
     brugia_malayi   
     caenorhabditis_brenneri   
@@ -118,6 +122,7 @@ sub update_conf {
     ceratitis_capitata_gca000347755v4  
     chelonus_insularis_gca013357705v1rs
     cherax_quadricarinatus_gca026875155v2rs
+    chrysoperla_carnea_gca905475395v1rs
     cimex_lectularius
     clytia_hemisphaerica_gca902728285   
     copidosoma_floridanum_gca000648655v2  
@@ -132,6 +137,8 @@ sub update_conf {
     culex_quinquefasciatus   
     culex_quinquefasciatus_gca015732765v1vb  
     culicoides_sonorensis
+    culicoides_brevitarsis_gca036172545v1rs
+    cydia_pomonella_gca033807575v1rs
     cylas_formicarius_gca029955315v1rs
     daktulosphaira_vitifoliae_gca025091365v1rs
     danaus_plexippus
@@ -217,7 +224,7 @@ sub update_conf {
     glossina_palpalis   
     glyphotaelius_pellucidus_gca936435175v1
     habropoda_laboriosa_gca001263275v1rs
-    haemaphysalis_longicornis_gca013339765v1
+    haemaphysalis_longicornis_gca013339765v2vb
     haliotis_rubra_gca003918875v1rs 
     haliotis_rufescens_gca023055435v1rs 
     halyomorpha_halys_gca000696795v2rs
@@ -240,6 +247,8 @@ sub update_conf {
     hymenolepis_microstoma  
     hypsibius_exemplaris_gca002082055v1
     ichneumon_xanthorius_gca917499995v1
+    ischnura_elegans_gca921293095v1rs
+    ixodes_persulcatus_gca013358835v2vb
     ixodes_persulcatus_gca013358835v1
     ixodes_scapularis   
     ixodes_scapularis_gca016920785v2  
@@ -255,7 +264,8 @@ sub update_conf {
     limulus_polyphemus_gca000517525v1
     linepithema_humile_gca000217595v1rs
     lineus_longissimus_gca910592395v2
-    lingula_anatina_gca001039355v2 
+    lingula_anatina_gca001039355v2
+    liolophura_japonica_gca032854445v1rs
     loa_loa  
     lottia_gigantea  
     lucilia_cuprina
@@ -266,6 +276,8 @@ sub update_conf {
     lytechinus_variegatus_gca018143015v1  
     machimus_atricapillus_gca933228815v1
     macrosteles_quadrilineatus_gca028750875v1rs
+    macrobrachium_nipponense_gca015104395v2rs
+    magallana_gigas_gca963853765v1rs
     malaya_genurostris_gca030247185v2rs
     manduca_sexta_gca014839805v1rs
     mayetiola_destructor   
@@ -322,6 +334,8 @@ sub update_conf {
     phlebotomus_papatasi_gca024763615v2rs
     phlebotomus_perniciosus_gca918844115v2
     plodia_interpunctella_gca027563975v1rs
+    platynereis_dumerilii_gca026936325v1cm
+    schistosoma_haematobium_gca000699445v3rs
     pocillopora_damicornis_gca003704095v1
     pogonomyrmex_barbatus_gca000187915v1rs
     polistes_canadensis_gca001313835v1rs
