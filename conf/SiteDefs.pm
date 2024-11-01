@@ -53,7 +53,6 @@ sub update_conf {
     anastrepha_obliqua_gca027943255v1rs
     ancistrocerus_nigricornis_gca916049575v1
     anneissia_japonica_gca011630105v1   
-    anopheles_albimanus  
     anopheles_arabiensis   
     anopheles_atroparvus_gca914969975
     anopheles_christyi
@@ -71,7 +70,6 @@ sub update_conf {
     anopheles_melas  
     anopheles_merus
     anopheles_minimus   
-    anopheles_quadriannulatus   
     anopheles_quadriannulatus_gca000349065v1vb
     anopheles_sinensis   
     anopheles_sinensis_china   
