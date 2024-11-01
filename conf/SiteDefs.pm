@@ -38,6 +38,7 @@ sub update_conf {
     adineta_vaga   
     aedes_aegypti_lvpagwg  
     aedes_albopictus_gca035046485v1rs
+    anopheles_albimanus_gca000349125v2vb
     anopheles_albimanus_gca013758885v1rs
     anopheles_darlingi_gca943734745v1rs
     anopheles_gambiae_gca943734735v2vb
@@ -56,8 +57,8 @@ sub update_conf {
     anopheles_arabiensis   
     anopheles_atroparvus_gca914969975
     anopheles_christyi
+    anopheles_coluzzii_gca004136515v2vb
     anopheles_coluzzii_gca943734685v1rs
-    anopheles_coluzzii_ngousso
     anopheles_culicifacies
     anopheles_darlingi
     anopheles_dirus 
@@ -71,6 +72,7 @@ sub update_conf {
     anopheles_merus
     anopheles_minimus   
     anopheles_quadriannulatus   
+    anopheles_quadriannulatus_gca000349065v1vb
     anopheles_sinensis   
     anopheles_sinensis_china   
     anopheles_stephensi  
@@ -210,7 +212,7 @@ sub update_conf {
     echinococcus_granulosus_gca000524195v1rs   
     eriocheir_sinensis_gca024679095v1rs
     eufriesea_mexicana_gca001483705v1rs
-    eurytemora_affinis_gca000591075v2
+    eurytemora_carolleeae_gca000591075v1rs
     exaiptasia_diaphana_gca001417965v1
     folsomia_candida  
     galendromus_occidentalis_gca000255335v2rs
@@ -223,8 +225,10 @@ sub update_conf {
     glossina_pallidipes
     glossina_palpalis   
     glyphotaelius_pellucidus_gca936435175v1
+    gordionus_sp_gca954871325v1rs
     habropoda_laboriosa_gca001263275v1rs
     haemaphysalis_longicornis_gca013339765v2vb
+    halichondria_panicea_gca963675165v1rs
     haliotis_rubra_gca003918875v1rs 
     haliotis_rufescens_gca023055435v1rs 
     halyomorpha_halys_gca000696795v2rs
@@ -240,6 +244,7 @@ sub update_conf {
     homarus_gammarus_gca958450375v1
     hyalella_azteca_gca000764305v2
     hyalomma_asiaticum_gca013339685v1
+    hyalomma_asiaticum_gca013339685v2vb
     hydra_vulgaris_gca022113875v1rs
     hydractinia_symbiolongicarpus_gca029227915v2rs
     hylaeus_anthracinus_gca026225885v1rs
