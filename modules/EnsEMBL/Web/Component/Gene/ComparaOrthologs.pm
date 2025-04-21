@@ -24,18 +24,22 @@ use warnings;
 our $GENE_TREE_CONSTANTS = {
   default => {
     name => 'Metazoa',
+    component => 'ComparaTree',
     url_part => 'Compara_Tree'
   },
   protostomes => {
     name => 'Protostomes',
+    component => 'ProtostomesTree',
     url_part => 'Protostomes_Tree'
   },
   insects => {
     name => 'Insects',
+    component => 'InsectsTree',
     url_part => 'Insects_Tree'
   },
   pangenome_drosophila => {
     name => 'Drosophilidae',
+    component => 'DrosophilidaeTree',
     url_part => 'Drosophilidae_Tree'
   }
 };
