@@ -268,7 +268,6 @@ sub update_conf {
     mizuhopecten_yessoensis_gca002113885v2   
     mnemiopsis_leidyi   
     monomorium_pharaonis_gca013373865v2  
-    musca_domestica
     mya_arenaria_gca026914265v1rs
     mytilus_californianus_gca021869535v1rs
     nasonia_vitripennis   
@@ -397,6 +396,7 @@ sub update_conf {
     lucilia_sericata_gca015586225v1rs
     lytechinus_pictus_gca037042905v1rs
     mercenaria_mercenaria_gca021730395v1rs
+    musca_domestica_gca030504385v2rs
     myopa_tessellatipennis_gca943737955v2
     necator_americanus_gca031761385v1rs
     nematostella_vectensis_gca932526225v1rs
@@ -404,6 +404,8 @@ sub update_conf {
     ostrea_edulis_gca947568905v1rs
     photinus_pyralis_gca008802855v1rs
     sarcoptes_scabiei_gca020844145v1gb
+    schmidtea_mediterranea_gca045838255v1cm
+    schmidtea_mediterranea_gca045838265v1cm
     schmidtea_nova_gca044892505v1cm
     schmidtea_polychroa_gca044892525v1cm
     steinernema_hermaphroditum_gca030435675v2gb
