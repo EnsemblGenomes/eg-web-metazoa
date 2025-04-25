@@ -38,21 +38,19 @@ sub update_conf {
     adineta_vaga   
     aedes_aegypti_lvpagwg  
     aedes_albopictus_gca035046485v1rs
-    anopheles_albimanus_gca000349125v2vb
-    anopheles_albimanus_gca013758885v1rs
-    anopheles_darlingi_gca943734745v1rs
-    anopheles_gambiae_gca943734735v2vb
-    argiope_bruennichi_gca947563725v1rs
     aethina_tumida_gca024364675v1rs
     agrilus_planipennis_gca000699045v2
+    amblyomma_americanum_gca030143305v2gb
     amblyteles_armatorius_gca933228735v1
     amphibalanus_amphitrite_gca019059575v1  
     amphimedon_queenslandica_gca000090795v2rs
-    amyelois_transitella_gca001186105v1rs
+    amyelois_transitella_gca032362555v1rs
     anastrepha_ludens_gca028408465v1rs
     anastrepha_obliqua_gca027943255v1rs
     ancistrocerus_nigricornis_gca916049575v1
     anneissia_japonica_gca011630105v1   
+    anopheles_albimanus_gca000349125v2vb
+    anopheles_albimanus_gca013758885v1rs
     anopheles_arabiensis   
     anopheles_atroparvus_gca914969975
     anopheles_christyi
@@ -60,12 +58,14 @@ sub update_conf {
     anopheles_coluzzii_gca943734685v1rs
     anopheles_culicifacies
     anopheles_darlingi
+    anopheles_darlingi_gca943734745v1rs
     anopheles_dirus 
     anopheles_epiroticus  
     anopheles_farauti
     anopheles_funestus
     anopheles_funestus_gca943734845v1rs
     anopheles_gambiae   
+    anopheles_gambiae_gca943734735v2vb
     anopheles_maculatus   
     anopheles_melas  
     anopheles_merus
@@ -82,13 +82,15 @@ sub update_conf {
     apis_florea_gca000184785v2rs
     apis_mellifera
     aplysia_californica_gca000002075v2
+    argiope_bruennichi_gca947563725v1rs
     ascaris_suum
     asterias_rubens_gca902459465v3
     athalia_rosae_gca917208135v1
     atta_cephalotes   
-    bactrocera_dorsalis_gca000789215v2  
+    bactrocera_dorsalis_gca023373825v1rs
     bactrocera_latifrons_gca001853355v1
     bactrocera_neohumeralis_gca024586455v2rs
+    bactrocera_oleae_gca001188975v4rs
     bactrocera_tryoni_gca016617805v2
     belgica_antarctica
     bemisia_tabaci_asiaii5
@@ -97,8 +99,7 @@ sub update_conf {
     bemisia_tabaci_ssa2nig  
     bemisia_tabaci_ssa3nig  
     bemisia_tabaci_uganda1
-    bicyclus_anynana_gca900239965v1rs
-    biomphalaria_glabrata  
+    bicyclus_anynana_gca947172395v1
     biomphalaria_glabrata_gca947242115v1rs
     bombus_affinis_gca024516045v2rs
     bombus_huntii_gca024542735v1rs
@@ -106,15 +107,17 @@ sub update_conf {
     bombus_terrestris_gca910591885v2
     bombus_vancouverensis_gca011952275v1rs
     bombyx_mandarina_gca003987935v1rs
-    bombyx_mori  
     bombyx_mori_gca030269925v1rs
+    bradysia_coprophila_gca014529535v1rs
     branchiostoma_lanceolatum
+    branchiostoma_lanceolatum_gca035083965v1rs
     brugia_malayi   
     caenorhabditis_brenneri   
     caenorhabditis_briggsae  
     caenorhabditis_elegans   
     caenorhabditis_japonica   
     caenorhabditis_remanei   
+    caenorhabditis_remanei_gca010183535v1rs
     camponotus_floridanus_gca003227725v1rs
     capitella_teleta   
     cataglyphis_hispanica_gca021464435v1rs
@@ -125,33 +128,32 @@ sub update_conf {
     chrysoperla_carnea_gca905475395v1rs
     cimex_lectularius
     clytia_hemisphaerica_gca902728285   
+    contarinia_nasturtii_gca009176525v2rs
     copidosoma_floridanum_gca000648655v2  
     coremacera_marginata_gca914767935v1
     cotesia_glomerata_gca020080835v1   
     crassostrea_angulata_gca025612915v2rs
-    crassostrea_gigas   
     crassostrea_virginica_gca002022765v4 
     cryptotermes_secundus_gca002891405v2rs  
     ctenocephalides_felis_gca003426905v1rs
     culex_pipiens_gca016801865v2rs
-    culex_quinquefasciatus   
     culex_quinquefasciatus_gca015732765v1vb  
-    culicoides_sonorensis
     culicoides_brevitarsis_gca036172545v1rs
+    culicoides_sonorensis
     cydia_pomonella_gca033807575v1rs
     cylas_formicarius_gca029955315v1rs
     daktulosphaira_vitifoliae_gca025091365v1rs
     danaus_plexippus
+    danaus_plexippus_gca018135715v1
     daphnia_carinata_gca022539665v3rs
     daphnia_magna_gca020631705v2   
     daphnia_pulex_gca021134715v1rs
     daphnia_pulicaria_gca021234035v2rs
-    dendroctonus_ponderosae_gca000355655v1   
+    dendroctonus_ponderosae_gca020466585v2rs
     dendronephthya_gigantea_gca004324835v1  
     dermacentor_andersoni_gca023375885v2rs
     dermacentor_silvarum_gca013339745v2rs
     dermatophagoides_pteronyssinus_gca001901225v2   
-    diabrotica_virgifera_gca003013835v2
     diabrotica_virgifera_gca917563875v2rs
     diaphorina_citri_gca000475195v1rs
     dimorphilus_gyrociliatus_gca904063045v1   
@@ -161,60 +163,57 @@ sub update_conf {
     diuraphis_noxia_gca001186385v1   
     dreissena_polymorpha_gca020536995v1rs
     drosophila_albomicans_gca009650485v2rs
-    drosophila_ananassae   
     drosophila_ananassae_gca017639315v2rs
     drosophila_arizonae_gca001654025v1rs
     drosophila_biarmipes_gca025231255v1rs
-    drosophila_bipectinata_gca000236285v2rs
+    drosophila_bipectinata_gca030179905v2rs
     drosophila_busckii_gca011750605v1rs
-    drosophila_elegans_gca000224195v2rs
-    drosophila_erecta  
+    drosophila_elegans_gca018152505v1rs
     drosophila_erecta_gca003286155v2rs
     drosophila_eugracilis_gca018153835v1rs
     drosophila_ficusphila_gca018152265v1rs
-    drosophila_grimshawi   
     drosophila_grimshawi_gca018153295v1rs
     drosophila_guanche_gca900245975v1rs
     drosophila_gunungcola_gca025200985v1rs
     drosophila_hydei_gca003285905v2rs
     drosophila_innubila_gca004354385v1rs
-    drosophila_kikkawai_gca018152535v1rs
+    drosophila_kikkawai_gca030179895v2rs
     drosophila_mauritiana_gca004382145v1rs
     drosophila_melanogaster   
     drosophila_miranda_gca003369915v2rs
-    drosophila_mojavensis  
     drosophila_mojavensis_gca018153725v1rs
+    drosophila_montana_gca035044405v1rs
+    drosophila_nasuta_gca023558535v2rs
     drosophila_navojoa_gca001654015v2rs
+    drosophila_novamexicana_gca003285875v3rs
     drosophila_obscura_gca018151105v1rs
-    drosophila_persimilis
     drosophila_persimilis_gca003286085v2rs
     drosophila_pseudoobscura
     drosophila_pseudoobscura_gca009870125v2rs
     drosophila_rhopaloa_gca018152115v1rs 
     drosophila_santomea_gca016746245v2rs
-    drosophila_sechellia
     drosophila_sechellia_gca004382195v2rs
-    drosophila_simulans   
+    drosophila_serrata_gca002093755v2rs
     drosophila_simulans_gca016746395v2rs
     drosophila_subobscura_gca008121235v1rs
     drosophila_subpulchrella_gca014743375v2rs
-    drosophila_suzukii_gca013340165v1rs
-    drosophila_takahashii_gca018152695v1rs
+    drosophila_sulfurigaster_gca023558435v2rs
+    drosophila_suzukii_gca037355615v1rs
+    drosophila_takahashii_gca030179915v2rs
     drosophila_teissieri_gca016746235v2rs
-    drosophila_virilis  
-    drosophila_virilis_gca003285735v2rs
-    drosophila_willistoni
+    drosophila_tropicalis_gca018151085v1rs
+    drosophila_virilis_gca030788295v1rs
     drosophila_willistoni_gca018902025v2rs
     drosophila_yakuba_gca016746365v2rs
     dufourea_novaeangliae_gca001272555v1rs
     echinococcus_granulosus_gca000524195v1rs   
     eriocheir_sinensis_gca024679095v1rs
     eufriesea_mexicana_gca001483705v1rs
+    eufriesea_mexicana_gca001483705v2rs
     eurytemora_carolleeae_gca000591075v1rs
     exaiptasia_diaphana_gca001417965v1
     folsomia_candida  
     galendromus_occidentalis_gca000255335v2rs
-    galleria_mellonella_gca003640425v2rs
     gigantopelta_aegis_gca016097555v1
     glossina_austeni
     glossina_brevipalpis
@@ -232,7 +231,7 @@ sub update_conf {
     halyomorpha_halys_gca000696795v2rs
     harpegnathos_saltator_gca003227715v2rs
     heliconius_melpomene   
-    helicoverpa_armigera_gca023701775v1rs
+    helicoverpa_armigera_gca030705265v1rs
     helicoverpa_zea_gca022581195v1rs
     helobdella_robusta  
     hermetia_illucens_gca905115235v1   
@@ -241,9 +240,9 @@ sub update_conf {
     homarus_americanus_gca018991925v1
     homarus_gammarus_gca958450375v1
     hyalella_azteca_gca000764305v2
-    hyalomma_asiaticum_gca013339685v1
     hyalomma_asiaticum_gca013339685v2vb
     hydra_vulgaris_gca022113875v1rs
+    hydra_vulgaris_gca038396675v1rs
     hydractinia_symbiolongicarpus_gca029227915v2rs
     hylaeus_anthracinus_gca026225885v1rs
     hylaeus_volcanicus_gca026283585v1rs
@@ -252,8 +251,6 @@ sub update_conf {
     ichneumon_xanthorius_gca917499995v1
     ischnura_elegans_gca921293095v1rs
     ixodes_persulcatus_gca013358835v2vb
-    ixodes_persulcatus_gca013358835v1
-    ixodes_scapularis   
     ixodes_scapularis_gca016920785v2  
     ixodes_scapularis_ise6
     leguminivora_glycinivorella_gca023078275v1rs
@@ -265,7 +262,7 @@ sub update_conf {
     limnephilus_rhombicus_gca929108145v2
     limnoperna_fortunei_gca944474755v1
     limulus_polyphemus_gca000517525v1
-    linepithema_humile_gca000217595v1rs
+    linepithema_humile_gca040581485v1rs
     lineus_longissimus_gca910592395v2
     lingula_anatina_gca001039355v2
     liolophura_japonica_gca032854445v1rs
@@ -273,13 +270,15 @@ sub update_conf {
     lottia_gigantea  
     lucilia_cuprina
     lucilia_cuprina_gca022045245v1rs
+    lucilia_sericata_gca015586225v1rs
     lutzomyia_longipalpis   
     lutzomyia_longipalpis_gca024334085v1rs
     lytechinus_pictus_gca015342785v2rs
+    lytechinus_pictus_gca037042905v1rs
     lytechinus_variegatus_gca018143015v1  
     machimus_atricapillus_gca933228815v1
-    macrosteles_quadrilineatus_gca028750875v1rs
     macrobrachium_nipponense_gca015104395v2rs
+    macrosteles_quadrilineatus_gca028750875v1rs
     magallana_gigas_gca963853765v1rs
     malaya_genurostris_gca030247185v2rs
     manduca_sexta_gca014839805v1rs
@@ -289,6 +288,7 @@ sub update_conf {
     melanaphis_sacchari_gca002803265v2rs
     melitaea_cinxia_gca905220565v1
     mercenaria_mercenaria_gca014805675v2
+    mercenaria_mercenaria_gca021730395v1rs
     microctonus_aethiopoides_gca030272655v1cm
     microctonus_aethiopoides_gca030272935v1cm
     microctonus_aethiopoides_gca030347275v1cm
@@ -298,13 +298,15 @@ sub update_conf {
     mizuhopecten_yessoensis_gca002113885v2   
     mnemiopsis_leidyi   
     monomorium_pharaonis_gca013373865v2  
-    musca_domestica
+    musca_domestica_gca030504385v2rs
     mya_arenaria_gca026914265v1rs
-    myopa_tessellatipennis_gca943737955v1
+    myopa_tessellatipennis_gca943737955v2
     mytilus_californianus_gca021869535v1rs
     nasonia_vitripennis   
     necator_americanus  
+    necator_americanus_gca031761385v1rs
     nematostella_vectensis   
+    nematostella_vectensis_gca932526225v1rs
     neodiprion_lecontei_gca021901455v1rs
     neodiprion_pinetum_gca021155775v1rs
     nilaparvata_lugens_gca014356525v1rs
@@ -316,8 +318,10 @@ sub update_conf {
     oppia_nitens_gca028296485v1rs   
     orbicella_faveolata_gca002042975v1   
     orchesella_cincta  
+    ornithodoros_turicata_gca037126465v1rs
     orussus_abietinus_gca000612105v2
     ostrea_edulis_gca023158985v1rs
+    ostrea_edulis_gca947568905v1rs
     owenia_fusiformis_gca903813345v1   
     panonychus_citri_gca014898815v1rs
     paramacrobiotus_metropolitanus_gca019649055v1rs
@@ -336,9 +340,9 @@ sub update_conf {
     phlebotomus_papatasi
     phlebotomus_papatasi_gca024763615v2rs
     phlebotomus_perniciosus_gca918844115v2
-    plodia_interpunctella_gca027563975v1rs
+    photinus_pyralis_gca008802855v1rs
     platynereis_dumerilii_gca026936325v1cm
-    schistosoma_haematobium_gca000699445v3rs
+    plodia_interpunctella_gca027563975v1rs
     pocillopora_damicornis_gca003704095v1
     pogonomyrmex_barbatus_gca000187915v1rs
     polistes_canadensis_gca001313835v1rs
@@ -358,6 +362,7 @@ sub update_conf {
     rhopalosiphum_maidis_gca003676215v3   
     saccoglossus_kowalevskii_gca000003605v1   
     sarcoptes_scabiei  
+    sarcoptes_scabiei_gca020844145v1gb
     schistocerca_americana_gca021461395v2rs
     schistocerca_cancellata_gca023864275v2rs
     schistocerca_gregaria_gca023897955v2rs
@@ -365,19 +370,27 @@ sub update_conf {
     schistocerca_piceifrons_gca021461385v2rs
     schistocerca_serialis_gca023864345v3rs
     schistosoma_haematobium_gca000699445v2rs
+    schistosoma_haematobium_gca000699445v3rs
     schistosoma_mansoni
+    schmidtea_mediterranea_gca045838255v1cm
+    schmidtea_mediterranea_gca045838265v1cm
+    schmidtea_nova_gca044892505v1cm
+    schmidtea_polychroa_gca044892525v1cm
     sipha_flava_gca003268045v1
     sitophilus_oryzae_gca002938485v2rs
     solenopsis_invicta
     spodoptera_frugiperda_gca023101765v3rs
     stegodyphus_dumicola_gca010614865v2rs
     stegodyphus_mimosarum   
-    stomoxys_calcitrans   
+    steinernema_hermaphroditum_gca030435675v2gb
+    stomoxys_calcitrans_gca963082655v1rs
     strigamia_maritima   
     strongylocentrotus_purpuratus  
     strongyloides_ratti
     stylophora_pistillata_gca002571385v1
+    stylophora_pistillata_gca002571385v2
     teleopsis_dalmanni
+    tenebrio_molitor_gca907166875v3gb
     tetranychus_urticae   
     thelohanellus_kitauei   
     thrips_palmi_gca012932325v1rs
@@ -385,7 +398,7 @@ sub update_conf {
     topomyia_yanbarensis_gca030247195v1rs
     toxorhynchites_rutilus_gca029784135v1rs
     trialeurodes_vaporariorum_gca011764245   
-    tribolium_castaneum   
+    tribolium_castaneum_gca031307605v1rs
     tribolium_madens_gca015345945v1rs
     trichinella_spiralis   
     trichogramma_pretiosum_gca000599845v3  
@@ -396,6 +409,7 @@ sub update_conf {
     varroa_destructor_gca002443255   
     varroa_jacobsoni_gca002532875v1rs
     venturia_canescens_gca019457755v1rs
+    vespa_mandarinia_gca014083535v2rs
     wyeomyia_smithii_gca029784165v1rs
     zerene_cesonia_gca012273895v2rs
     zeugodacus_cucurbitae_gca028554725v2rs
