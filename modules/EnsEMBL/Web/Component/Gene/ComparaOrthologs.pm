@@ -21,28 +21,7 @@ package EnsEMBL::Web::Component::Gene::ComparaOrthologs;
 use strict;
 use warnings;
 
-our $GENE_TREE_CONSTANTS = {
-  default => {
-    name => 'Metazoa',
-    component => 'ComparaTree',
-    url_part => 'Compara_Tree'
-  },
-  protostomes => {
-    name => 'Protostomes',
-    component => 'ProtostomesTree',
-    url_part => 'Protostomes_Tree'
-  },
-  insects => {
-    name => 'Insects',
-    component => 'InsectsTree',
-    url_part => 'Insects_Tree'
-  },
-  pangenome_drosophila => {
-    name => 'Drosophilidae',
-    component => 'DrosophilidaeTree',
-    url_part => 'Drosophilidae_Tree'
-  }
-};
+use EnsEMBL::Web::Constants;
 
 sub create_gene_tree_links {
   my $self = shift;
@@ -66,10 +45,10 @@ sub create_gene_tree_links {
 
   foreach my $clusterset_ancestor_pair (@clusterset_ancestor_pairs) {
     my ($clusterset_id, $anc_node_id) = @$clusterset_ancestor_pair;
-    my $gene_tree_constants = $self->get_gene_tree_constants_for_clusterset($clusterset_id);
+    my $gene_tree_constants = EnsEMBL::Web::Constants::GENE_TREE_CONSTANTS($cdb, undef, $clusterset_id);
     my $gene_tree_name = $gene_tree_constants->{name};
     my $link_text = $is_single_clusterset ? 'View Gene Tree' : "View $gene_tree_name Gene Tree";
-    my $url_part = $is_pan ? 'PanComparaTree' : $gene_tree_constants->{url_part};
+    my $url_part = $gene_tree_constants->{action};
 
     my $tree_url = $hub->url({
       type   => 'Gene',
@@ -85,7 +64,7 @@ sub create_gene_tree_links {
     push(@link_str_parts, $link_str);
   }
 
-  my $links_str = join('', @link_str_parts);
+  my $links_str = join(' ', @link_str_parts);
 
   return $links_str;
 }
@@ -99,13 +78,6 @@ sub fetch_anc_node_ids {
   my $gene_tree_adaptor = $member->adaptor->db->get_GeneTreeAdaptor;
 
   return $gene_tree_adaptor->_fetch_all_ref_lca_node_ids_by_Member($member);
-}
-
-sub get_gene_tree_constants_for_clusterset {
-  my $self = shift;
-  my $clusterset_id = shift;
-
-  return $GENE_TREE_CONSTANTS->{$clusterset_id};
 }
 
 
