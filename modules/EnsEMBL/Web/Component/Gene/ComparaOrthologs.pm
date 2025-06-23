@@ -30,6 +30,7 @@ sub create_gene_tree_links {
   my $hub          = $self->hub;
   my $anc_node_ids = $params->{anc_node_ids};
   my $stable_id = $params->{stable_id};
+  my $s1 = $params->{s1};
   my $orthologue = $params->{orthologue};
   my $cdb = $params->{cdb};
 
@@ -54,6 +55,7 @@ sub create_gene_tree_links {
       type   => 'Gene',
       action => $url_part,
       g1     => $stable_id,
+      s1     => $s1,
       anc    => $anc_node_id,
       r      => undef
     });
