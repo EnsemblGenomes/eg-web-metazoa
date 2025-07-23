@@ -422,6 +422,11 @@ sub update_conf {
     $SiteDefs::ENSEMBL_SERVERROOT.'/eg-web-metazoa/perl',
   );
 
+  $SiteDefs::ENSEMBL_VEP_PLUGIN_CONFIG_FILES  = [
+	  $SiteDefs::ENSEMBL_SERVERROOT.'/VEP_plugins/plugin_config.txt', # VEP_plugins is cloned from github.com/ensembl-variation/VEP_plugins
+	  $SiteDefs::ENSEMBL_SERVERROOT.'/eg-web-metazoa/conf/vep_plugins_web_config.txt'
+  ];
+
   $SiteDefs::EG_DIVISION      = 'metazoa';
   $SiteDefs::SUBDOMAIN_DIR    = 'metazoa';
   $SiteDefs::SITE_NAME        = 'Ensembl Metazoa';
