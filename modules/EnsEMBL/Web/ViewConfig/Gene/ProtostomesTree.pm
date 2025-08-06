@@ -34,4 +34,14 @@ sub init_cacheable {
   $self->set_default_options({'clusterset_id' => 'protostomes'});
 }
 
+sub init_form_non_cacheable {
+  my $self = shift;
+
+  if (my $dropdown = $self->form->get_elements_by_name('clusterset_id')->[0]) {
+    $self->_replace_default_clusterset_id_option($dropdown, 'protostomes');
+  }
+
+  return $self->form;
+}
+
 1;
