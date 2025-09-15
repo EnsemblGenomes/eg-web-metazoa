@@ -22,6 +22,30 @@ package EnsEMBL::Web::Utils::Compara;
 use strict;
 
 
+sub _get_gene_tree_const_param_sets {
+  my ($hub, $compara_db) = @_;
+
+  my @gene_tree_const_param_sets;
+  if ($compara_db eq 'compara_pan_ensembl') {
+    push(@gene_tree_const_param_sets, [$compara_db, 0, 'default']);
+  } else {
+
+    my $species_defs = $hub->species_defs;
+    my $species_prod_name = $species_defs->SPECIES_PRODUCTION_NAME;
+
+    my $cdb_info = $species_defs->multi_val('DATABASE_COMPARA');
+    if (exists $cdb_info->{'METAZOA_CLUSTERSETS'}->{$species_prod_name}
+        && ref($cdb_info->{'METAZOA_CLUSTERSETS'}->{$species_prod_name}) eq 'ARRAY') {
+      foreach my $cset_id (@{$cdb_info->{'METAZOA_CLUSTERSETS'}->{$species_prod_name}}) {
+        push(@gene_tree_const_param_sets, [$compara_db, 0, $cset_id]);
+      }
+    }
+  }
+
+  return \@gene_tree_const_param_sets;
+}
+
+
 sub _get_non_strain_orthoset_prod_names {
   my ($hub, $url_lookup) = @_;
 
