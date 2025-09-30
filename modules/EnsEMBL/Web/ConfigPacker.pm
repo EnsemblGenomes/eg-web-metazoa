@@ -35,16 +35,21 @@ sub _configure_new_gene_trees {
   my $dbh = $self->db_connect($db_name);
 
   ## Store clustersets for metazoa gene trees
+  ## ordered by their homology_range_index,
+  ## so that each genome has a consistently
+  ## ordered list of clusterset_id values.
   my $sth = $dbh->prepare('
     SELECT DISTINCT TRIM(LEADING "collection-" FROM ssh.name) AS collection_name
     FROM method_link_species_set mlss
+    JOIN method_link_species_set_tag mlss_tag USING(method_link_species_set_id)
     JOIN method_link ml USING(method_link_id)
     JOIN species_set ss USING(species_set_id)
     JOIN species_set_header ssh USING(species_set_id)
     JOIN genome_db gd USING(genome_db_id)
     WHERE ml.type IN ("PROTEIN_TREES", "NC_TREES")
+    AND tag = "homology_range_index"
     AND gd.name = ?
-    ORDER BY FIELD(ssh.name, "collection-default", "default") DESC
+    ORDER BY mlss_tag.value ASC
   ');
 
   foreach my $sp (keys %{$self->db_tree->{$db_name}{'COMPARA_SPECIES'}}) {
