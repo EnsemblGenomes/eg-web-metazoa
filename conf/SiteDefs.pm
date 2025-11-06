@@ -229,7 +229,7 @@ sub update_conf {
     halichondria_panicea_gca963675165v1rs
     haliotis_rubra_gca003918875v1rs 
     haliotis_rufescens_gca023055435v1rs 
-    halyomorpha_halys_gca000696795v2rs
+    halyomorpha_halys_gca000696795v3rs 
     harpegnathos_saltator_gca003227715v2rs
     heliconius_melpomene   
     helicoverpa_armigera_gca030705265v1rs
@@ -322,7 +322,7 @@ sub update_conf {
     ornithodoros_turicata_gca037126465v1rs
     orussus_abietinus_gca000612105v2
     ostrea_edulis_gca947568905v1rs
-    owenia_fusiformis_gca903813345v1   
+    owenia_fusiformis_gca903813345v2gb   
     panonychus_citri_gca014898815v1rs
     paramacrobiotus_metropolitanus_gca019649055v1rs
     parasteatoda_tepidariorum_gca043381705v1rs
