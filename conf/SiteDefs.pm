@@ -304,7 +304,6 @@ sub update_conf {
     mytilus_californianus_gca021869535v1rs
     nasonia_vitripennis   
     necator_americanus_gca031761385v1rs
-    nematostella_vectensis   
     nematostella_vectensis_gca932526225v1rs
     neodiprion_lecontei_gca021901455v1rs
     neodiprion_pinetum_gca021155775v1rs
