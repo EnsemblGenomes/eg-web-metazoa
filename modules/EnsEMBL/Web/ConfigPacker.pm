@@ -21,7 +21,7 @@ use strict;
 use warnings;
 no warnings qw(uninitialized);
 
-use previous qw(munge_databases_multi);
+use previous qw(_munge_meta munge_databases_multi);
 
 sub munge_databases_multi {
   my $self = shift;
@@ -69,6 +69,23 @@ sub _configure_new_gene_trees {
         $self->db_tree->{$db_name}{'METAZOA_CLUSTERSETS'}{$sp} = [$clusterset_id];
       }
    }
+  }
+}
+
+sub _munge_meta {
+  my $self = shift;
+  $self->PREV::_munge_meta(@_);
+  my $full_tree = $self->full_tree;
+  foreach my $species (keys %{$full_tree}) {
+    foreach my $key ('ASSEMBLY_PROVIDER_URL', 'ANNOTATION_PROVIDER_URL') {
+      if (exists $full_tree->{$species}{$key}) {
+        if ($full_tree->{$species}{$key} eq 'www.metazoa.ensembl.org') {
+          $full_tree->{$species}{$key} = 'https://metazoa.ensembl.org';
+        } elsif ($full_tree->{$species}{$key} eq 'www.ensembl.org') {
+          $full_tree->{$species}{$key} = 'https://www.ensembl.org';
+        }
+      }
+    }
   }
 }
 
